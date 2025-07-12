@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testy PPOŻ - Wybór Testu</title>
+    <style>
+        /* == Zmienne kolorów dla łatwiejszego zarządzania == */
+        :root {
+            --bg-light: #f4f4f4;
+            --surface-light: #fff;
+            --text-light: #333;
+            --primary-light: #0056b3;
+            --primary-hover-light: #004494;
+            --accent-light: #007bff;
+            --accent-hover-light: #0056b3;
+            --border-light: #ddd;
+            --shadow-light: rgba(0,0,0,0.1);
+            --correct-bg-light: #d4edda;
+            --correct-border-light: #28a745;
+            --correct-text-light: #155724;
+            --incorrect-bg-light: #f8d7da;
+            --incorrect-border-light: #dc3545;
+            --incorrect-text-light: #721c24;
+
+            --bg-dark: #121212;
+            --surface-dark: #1e1e1e;
+            --text-dark: #e0e0e0;
+            --primary-dark: #bb86fc;
+            --primary-hover-dark: #a76ef4;
+            --accent-dark: #03dac6;
+            --accent-hover-dark: #01bfa5;
+            --border-dark: #444;
+            --shadow-dark: rgba(255,255,255,0.1);
+            --correct-bg-dark: #2a3b2e;
+            --correct-border-dark: #6fbf73;
+            --correct-text-dark: #d4edda;
+            --incorrect-bg-dark: #4d2a2e;
+            --incorrect-border-dark: #f48fb1;
+            --incorrect-text-dark: #f8d7da;
+        }
+
+        /* == Style podstawowe (Tryb Dzienny) == */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--bg-light);
+            color: var(--text-light);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        #app-container {
+            background-color: var(--surface-light);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px var(--shadow-light);
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        h1, h2 {
+            color: var(--primary-light);
+            text-align: center;
+            margin-bottom: 20px;
+            transition: color 0.3s;
+        }
+        .quiz-selection-item { margin-bottom: 15px; }
+        .quiz-selection-list button, .action-button {
+            background-color: var(--accent-light);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            transition: background-color 0.3s;
+            box-sizing: border-box;
+        }
+        .quiz-selection-list button:hover, .action-button:hover {
+            background-color: var(--accent-hover-light);
+        }
+        .last-score-for-quiz {
+            text-align: center;
+            margin-top: 5px;
+            padding: 8px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            font-size: 0.95em;
+            color: #555;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .question {
+            background-color: #f9f9f9;
+            border-left: 4px solid var(--primary-light); 
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 0 5px 5px 0;
+            transition: background-color 0.3s, border-left-color 0.3s;
+        }
+        .option {
+            margin: 8px 0;
+            padding: 8px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .option:hover { background-color: #f0f0f0; }
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none; 
+            transition: background-color 0.3s, color 0.3s, border-left-color 0.3s;
+        }
+        .correct {
+            background-color: var(--correct-bg-light);
+            border-left: 4px solid var(--correct-border-light);
+            color: var(--correct-text-light);
+        }
+        .incorrect {
+            background-color: var(--incorrect-bg-light);
+            border-left: 4px solid var(--incorrect-border-light);
+            color: var(--incorrect-text-light);
+        }
+        .explanation { font-style: italic; margin-top: 5px; }
+        .correct-answer-text { font-weight: bold; color: var(--correct-border-light); }
+        #loader { text-align: center; font-size: 1.2em; padding: 40px; }
+
+        /* == Przełącznik motywu == */
+        #theme-switcher-container {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+        }
+        #theme-switcher-btn {
+            background-color: var(--surface-light);
+            color: var(--text-light);
+            border: 1px solid var(--border-light);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+        }
+        #theme-switcher-btn:hover {
+            transform: scale(1.1);
+        }
+
+        /* == Style dla Trybu Nocnego == */
+        body.dark-mode {
+            background-color: var(--bg-dark);
+            color: var(--text-dark);
+        }
+        body.dark-mode #app-container {
+            background-color: var(--surface-dark);
+            box-shadow: 0 0 15px var(--shadow-dark);
+        }
+        body.dark-mode h1, body.dark-mode h2 {
+            color: var(--primary-dark);
+        }
+        body.dark-mode .quiz-selection-list button, body.dark-mode .action-button {
+            background-color: var(--accent-dark);
+            color: #000;
+        }
+        body.dark-mode .quiz-selection-list button:hover, body.dark-mode .action-button:hover {
+            background-color: var(--accent-hover-dark);
+        }
+        body.dark-mode .last-score-for-quiz {
+            background-color: #2c2c2c;
+            color: #aaa;
+        }
+        body.dark-mode .question {
+            background-color: #2c2c2c;
+            border-left-color: var(--primary-dark);
+        }
+        body.dark-mode .option:hover {
+            background-color: #3a3a3a;
+        }
+        body.dark-mode .correct {
+            background-color: var(--correct-bg-dark);
+            border-left-color: var(--correct-border-dark);
+            color: var(--correct-text-dark);
+        }
+        body.dark-mode .incorrect {
+            background-color: var(--incorrect-bg-dark);
+            border-left-color: var(--incorrect-border-dark);
+            color: var(--incorrect-text-dark);
+        }
+        body.dark-mode .correct-answer-text {
+            color: var(--correct-border-dark);
+        }
+        body.dark-mode #theme-switcher-btn {
+            background-color: var(--surface-dark);
+            color: var(--text-dark);
+            border-color: var(--border-dark);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Przycisk do zmiany motywu -->
+    <div id="theme-switcher-container">
+        <button id="theme-switcher-btn">🌙</button>
+    </div>
+
+    <div id="app-container">
+        <!-- Content will be rendered here by JavaScript -->
+    </div>
+
+    <script>
+        const quizData = {
+            'quiz1': { title: "Stałe urządzenia gaśnicze gazowe" },
+            'quiz3': { title: "Rozwiązania zamienne i alternatywne" },
+            'quiz4': { title: "Instalacje wodociągowe ppoż." },
+            'quiz5': { title: "Ograniczenie zagrożenia wybuchem" },
+            'quiz6': { title: "Wprowadzenie wyrobów budowlanych do obrotu" },
+            'quiz7': { title: "Woda i Drogi" },
+            'quiz8': { title: "Bierne zabezpieczenia" }
+        };
+
+        const appContainer = document.getElementById('app-container');
+        let state = {
+            currentQuizId: null,
+            currentQuestionIndex: 0,
+            score: 0,
+            questions: [],
+        };
+        const SCORES_KEY = 'PPOZ_QUIZ_SCORES';
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        function loadScores() {
+            const scores = localStorage.getItem(SCORES_KEY);
+            return scores ? JSON.parse(scores) : {};
+        }
+
+        function saveScore(quizId, score, totalQuestions) {
+            const scores = loadScores();
+            scores[quizId] = { score, totalQuestions, date: new Date().toISOString() };
+            localStorage.setItem(SCORES_KEY, JSON.stringify(scores));
+        }
+
+        function renderQuizSelection() {
+            appContainer.innerHTML = '<h1>Wybierz Test</h1><div class="quiz-selection-list"></div>';
+            const listContainer = appContainer.querySelector('.quiz-selection-list');
+            const allScores = loadScores();
+
+            for (const quizId in quizData) {
+                const quiz = quizData[quizId];
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'quiz-selection-item';
+                
+                const button = document.createElement('button');
+                button.textContent = quiz.title;
+                button.onclick = () => loadAndStartQuiz(quizId);
+                itemDiv.appendChild(button);
+
+                if (allScores[quizId]) {
+                    const scoreInfo = allScores[quizId];
+                    const date = new Date(scoreInfo.date).toLocaleString('pl-PL');
+                    const scoreDiv = document.createElement('div');
+                    scoreDiv.className = 'last-score-for-quiz';
+                    scoreDiv.textContent = `Ostatni wynik: ${scoreInfo.score}/${scoreInfo.totalQuestions} (${date})`;
+                    itemDiv.appendChild(scoreDiv);
+                }
+                listContainer.appendChild(itemDiv);
+            }
+        }
+
+        function renderQuiz(quizId) {
+            const quiz = quizData[quizId];
+            const q = state.questions[state.currentQuestionIndex];
+            
+            appContainer.innerHTML = `
+                <h2>${quiz.title} (${state.currentQuestionIndex + 1}/${state.questions.length})</h2>
+                <div class="question">
+                    <p>${state.currentQuestionIndex + 1}. ${q.question}</p>
+                    <div class="options"></div>
+                    <div class="result"></div>
+                </div>
+                <button class="action-button" id="next-question-btn" style="display: none;">Następne pytanie</button>
+                <button class="action-button" onclick="goBackToSelection()">Wróć do wyboru testów</button>
+            `;
+
+            const optionsContainer = appContainer.querySelector('.options');
+            q.options.forEach((option, index) => {
+                const optionId = `q${state.currentQuestionIndex}_option${index}`;
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.innerHTML = `
+                    <input type="radio" name="question${state.currentQuestionIndex}" id="${optionId}" value="${index}">
+                    <label for="${optionId}">${option.text}</label>
+                `;
+                optionsContainer.appendChild(optionDiv);
+                optionDiv.querySelector('input').addEventListener('change', () => checkAnswer(quizId, index));
+            });
+        }
+        
+        function renderResults(quizId) {
+            const quiz = quizData[quizId];
+            const percentage = Math.round((state.score / state.questions.length) * 100);
+            
+            appContainer.innerHTML = `
+                <h2>Wynik Testu: ${quiz.title}</h2>
+                <p style="text-align: center; font-size: 1.2em;">
+                    Twój wynik: <strong>${state.score} na ${state.questions.length} (${percentage}%)</strong>
+                </p>
+                <button class="action-button" onclick="loadAndStartQuiz('${quizId}')">Spróbuj ponownie</button>
+                <button class="action-button" onclick="goBackToSelection()">Wróć do wyboru testów</button>
+            `;
+        }
+
+        function loadAndStartQuiz(quizId) {
+            appContainer.innerHTML = `<div id="loader">Ładowanie testu...</div>`;
+            
+            const oldScript = document.getElementById('quiz-script');
+            if (oldScript) oldScript.remove();
+
+            const script = document.createElement('script');
+            script.id = 'quiz-script';
+            script.src = `data/${quizId}.js`;
+            
+            script.onload = () => {
+                const questionDataName = `${quizId}Questions`;
+                const questions = window[questionDataName];
+                
+                if (questions) {
+                    startQuiz(quizId, questions);
+                } else {
+                    appContainer.innerHTML = `<p style="color:red; text-align:center;">Błąd: Nie udało się wczytać danych testu.</p>`;
+                }
+            };
+            
+            script.onerror = () => {
+                appContainer.innerHTML = `<p style="color:red; text-align:center;">Nie udało się załadować pliku z testem.</p>`;
+            };
+            
+            document.head.appendChild(script);
+        }
+
+        function startQuiz(quizId, questions) {
+            shuffleArray(questions);
+            questions.forEach(q => {
+                if (q.options) shuffleArray(q.options);
+            });
+
+            state = {
+                currentQuizId: quizId,
+                currentQuestionIndex: 0,
+                score: 0,
+                questions: questions,
+            };
+            renderQuiz(quizId);
+        }
+        
+        function goBackToSelection() {
+            renderQuizSelection();
+        }
+
+        function checkAnswer(quizId, selectedIndex) {
+            const q = state.questions[state.currentQuestionIndex];
+            const resultDiv = appContainer.querySelector('.result');
+            const options = appContainer.querySelectorAll('.option input');
+            const nextButton = document.getElementById('next-question-btn');
+
+            options.forEach(input => input.disabled = true);
+
+            const correctOptionIndex = q.options.findIndex(opt => opt.correct);
+            const isCorrect = (selectedIndex === correctOptionIndex);
+
+            if (isCorrect) {
+                state.score++;
+                resultDiv.innerHTML = '<p><strong>Poprawna odpowiedź!</strong></p>';
+                resultDiv.className = 'result correct';
+            } else {
+                resultDiv.innerHTML = `
+                    <p><strong>Niepoprawna odpowiedź.</strong></p>
+                    <p class="correct-answer-text">Poprawna odpowiedź: ${q.options[correctOptionIndex].text}</p>
+                `;
+                resultDiv.className = 'result incorrect';
+            }
+            
+            if (q.explanation) {
+                const explanationSection = document.createElement('div');
+                explanationSection.className = 'explanation-section';
+                explanationSection.innerHTML = `<div class="explanation">${q.explanation}</div>`;
+                resultDiv.appendChild(explanationSection);
+            }
+            
+            resultDiv.style.display = 'block';
+
+            if (state.currentQuestionIndex < state.questions.length - 1) {
+                nextButton.textContent = 'Następne pytanie';
+                nextButton.onclick = () => {
+                    state.currentQuestionIndex++;
+                    renderQuiz(quizId);
+                };
+            } else {
+                nextButton.textContent = 'Zobacz wyniki';
+                saveScore(quizId, state.score, state.questions.length);
+                nextButton.onclick = () => renderResults(quizId);
+            }
+            nextButton.style.display = 'block';
+        }
+
+        // === LOGIKA DLA TRYBU DZIEŃ/NOC ===
+        const themeSwitcherBtn = document.getElementById('theme-switcher-btn');
+        const body = document.body;
+        const THEME_KEY = 'PPOZ_QUIZ_THEME';
+
+        function setTheme(theme) {
+            if (theme === 'dark') {
+                body.classList.add('dark-mode');
+                themeSwitcherBtn.textContent = '☀️'; // Słońce w trybie ciemnym
+                localStorage.setItem(THEME_KEY, 'dark');
+            } else {
+                body.classList.remove('dark-mode');
+                themeSwitcherBtn.textContent = '🌙'; // Księżyc w trybie jasnym
+                localStorage.setItem(THEME_KEY, 'light');
+            }
+        }
+
+        themeSwitcherBtn.addEventListener('click', () => {
+            const isDarkMode = body.classList.contains('dark-mode');
+            setTheme(isDarkMode ? 'light' : 'dark');
+        });
+
+        // Ustaw motyw przy pierwszym załadowaniu strony
+        const savedTheme = localStorage.getItem(THEME_KEY) || 'light';
+        setTheme(savedTheme);
+        
+        // Pierwsze renderowanie widoku
+        renderQuizSelection();
+    </script>
+</body>
+</html>
