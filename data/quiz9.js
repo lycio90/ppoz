@@ -1,209 +1,209 @@
 window.quiz9Questions = [
     {
-        "question": "Kto jest odpowiedzialny za realizację obowiązków z zakresu ochrony przeciwpożarowej?",
-        "options": [
-            { "text": "właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu", "correct": true },
-            { "text": "tylko właściciel budynku, obiektu budowlanego lub terenu", "correct": false },
-            { "text": "tylko zarządca budynku, obiektu budowlanego lub terenu", "correct": false }
+        question: "Nadzór organów PSP nad działalnością rzeczoznawców ds. zabezpieczeń przeciwpożarowych obejmuje swoim zakresem:",
+        options: [
+            { text: "Wykonywanie przez nich opinii", correct: false },
+            { text: "Wykonywanie przez nich opinii o których mowa w przepisach dotyczących ochrony przeciwpożarowej", correct: true },
+            { text: "Odpowiedzi a i b nie są prawdziwe, nadzór organów PSP nad działalnością rzeczoznawców ds. zabezpieczeń przeciwpożarowych nie obejmuje swoim zakresem wydawania przez nich opinii", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu, ponoszą odpowiedzialność za naruszenie przepisów przeciwpożarowych."
+        explanation: "<strong>Podstawa prawna:</strong> art. 11i ust. 1 ustawy o ochronie przeciwpożarowej<br/><strong>Wyjaśnienie:</strong> Nadzór organów PSP nad działalnością rzeczoznawców ds. zabezpieczeń przeciwpożarowych obejmuje swoim zakresem wykonywanie przez nich opinii, o których mowa w przepisach dotyczących ochrony przeciwpożarowej, oraz występowanie z wnioskami o skreślenie z wykazu."
     },
     {
-        "question": "Kto ponosi odpowiedzialność za naruszenie przepisów przeciwpożarowych?",
-        "options": [
-            { "text": "właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu", "correct": true },
-            { "text": "tylko właściciel budynku, obiektu budowlanego lub terenu", "correct": false },
-            { "text": "tylko zarządca budynku, obiektu budowlanego lub terenu", "correct": false }
+        question: "Obowiązkowe ubezpieczenie odpowiedzialności cywilnej rzeczoznawcy ds zabezp. ppoż za szkody wyrządzone w związku z jego działalnością:",
+        options: [
+            { text: "nie dotyczy wykonywania czynności z zakresu ochrony przeciwpożarowej polegających na zapobieganiu powstawaniu i rozprzestrzenianiu się pożaru", correct: true },
+            { text: "dotyczy wszystkich czynności wykonywanych przez rzeczoznawcę", correct: false },
+            { text: "dotyczy wyłącznie uzgadniania projektów budowlanych", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Odpowiedzialność za realizację obowiązków z zakresu ochrony przeciwpożarowej, stosownie do obowiązków i zadań powierzonych w odniesieniu do budynku, obiektu budowlanego lub terenu, przejmuje – w całości lub w części – ich zarządca lub użytkownik, na podstawie zawartej umowy cywilnoprawnej ustanawiającej zarząd lub użytkowanie."
+        explanation: "<strong>Podstawa prawna:</strong> art. 11k ust. 1 ustawy o ochronie przeciwpożarowej<br/><strong>Wyjaśnienie:</strong> Rzeczoznawca do spraw zabezpieczeń przeciwpożarowych podlega obowiązkowemu ubezpieczeniu odpowiedzialności cywilnej za szkody wyrządzone w związku z wykonywaniem czynności, o których mowa w art. 11i ust. 1 pkt 1-3."
     },
     {
-        "question": "Jakie czynności z zakresu ochrony przeciwpożarowej mogą wykonywać osoby nieposiadające kwalifikacji?",
-        "options": [
-            { "text": "wszystkie czynności z zakresu ochrony przeciwpożarowej", "correct": false },
-            { "text": "żadnych czynności z zakresu ochrony przeciwpożarowej", "correct": false },
-            { "text": "czynności z zakresu ochrony przeciwpożarowej, które nie są zastrzeżone dla osób posiadających odpowiednie kwalifikacje", "correct": true }
+        question: "Sprawdzian, z którego pozytywny wynik potwierdza samodzielne podnoszenie kwalifikacji zawodowych przez rzeczoznawcę do spraw zabezpieczeń przeciwpożarowych, jest przeprowadzany:",
+        options: [
+            { text: "w terminach ustalonych przez Komendanta Głównego PSP", correct: true },
+            { text: "raz na 5 lat", correct: false },
+            { text: "w terminach ustalonych przez Dyrektora CNBOP-PIB", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Czynności z zakresu ochrony przeciwpożarowej mogą wykonywać osoby posiadające odpowiednie kwalifikacje. Osoby nieposiadające kwalifikacji mogą wykonywać czynności z zakresu ochrony przeciwpożarowej, które nie są zastrzeżone dla osób posiadających odpowiednie kwalifikacje."
+        explanation: "<strong>Podstawa prawna:</strong> art. 11j ust. 1 ustawy o ochronie przeciwpożarowej<br/><strong>Wyjaśnienie:</strong> Potwierdzenie samodzielnego podnoszenia kwalifikacji zawodowych przez rzeczoznawcę do spraw zabezpieczeń przeciwpożarowych następuje na podstawie pozytywnego wyniku sprawdzianu przeprowadzanego w terminach ustalonych przez Komendanta Głównego Państwowej Straży Pożarnej."
     },
     {
-        "question": "Kto może wykonywać czynności z zakresu ochrony przeciwpożarowej?",
-        "options": [
-            { "text": "osoby posiadające odpowiednie kwalifikacje", "correct": true },
-            { "text": "każda osoba", "correct": false },
-            { "text": "tylko strażacy", "correct": false }
+        question: "Rzeczoznawcą do spraw zabezpieczeń przeciwpożarowych może być osoba która posiada:",
+        options: [
+            { text: "tytuł zawodowy inżynier pożarnictwa lub tytuł zawodowy magister inżynier pożarnictwa", correct: false },
+            { text: "tytuł zawodowy inżynier pożarnictwa i tytuł zawodowy magister inżynier", correct: false },
+            { text: "tytuł zawodowy inżynier pożarnictwa lub tytuł zawodowy inżynier i tytuł zawodowy magister inżynier pożarnictwa", correct: true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Czynności z zakresu ochrony przeciwpożarowej mogą wykonywać osoby posiadające odpowiednie kwalifikacje."
+        explanation: "<strong>Podstawa prawna:</strong> art. 11a ust. 1 ustawy o ochronie przeciwpożarowej"
     },
     {
-        "question": "Kto jest obowiązany do zapewnienia osobom przebywającym w budynku, obiekcie budowlanym lub na terenie, bezpieczeństwa i możliwości ewakuacji?",
-        "options": [
-            { "text": "właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu", "correct": true },
-            { "text": "tylko właściciel budynku, obiektu budowlanego lub terenu", "correct": false },
-            { "text": "tylko zarządca budynku, obiektu budowlanego lub terenu", "correct": false }
+        question: "Właściciel lub zarządca obiektu budowlanego jest obowiązany przechowywać projekt techniczny będący podstawa wykonania urządzenia przeciwpożarowego przez okres:",
+        options: [
+            { text: "istnienia obiektu budowlanego", correct: true },
+            { text: "5 lat od dnia wykonania urządzenia", correct: false },
+            { text: "10 lat od dnia wykonania urządzenia", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu, są obowiązani do zapewnienia osobom przebywającym w budynku, obiekcie budowlanym lub na terenie, bezpieczeństwa i możliwości ewakuacji."
+        explanation: "<strong>Podstawa prawna:</strong> art. 60 ust. 1 ustawy Prawo budowlane<br/><strong>Wyjaśnienie:</strong> Właściciel lub zarządca obiektu budowlanego jest obowiązany przechowywać przez okres istnienia obiektu dokumenty, o których mowa w art. 57, oraz, opracowania projektowe i dokumenty techniczne robót budowlanych wykonywanych w obiekcie w toku jego użytkowania."
     },
     {
-        "question": "Kto jest obowiązany do przygotowania budynku, obiektu budowlanego lub terenu do prowadzenia akcji ratowniczej?",
-        "options": [
-            { "text": "właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu", "correct": true },
-            { "text": "tylko właściciel budynku, obiektu budowlanego lub terenu", "correct": false },
-            { "text": "tylko zarządca budynku, obiektu budowlanego lub terenu", "correct": false }
+        question: "Zawiadomienie organów PSP o zakończeniu budowy obiektu budowlanego i zamiarze przystąpienia do jego użytkowania dokonuje:",
+        options: [
+            { text: "inwestor", correct: true },
+            { text: "kierownik budowy", correct: false },
+            { text: "projektant", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu, są obowiązani do przygotowania budynku, obiektu budowlanego lub terenu do prowadzenia akcji ratowniczej."
+        explanation: "<strong>Podstawa prawna:</strong> art. 56 ust. 1 ustawy Prawo budowlane<br/><strong>Wyjaśnienie:</strong> Inwestor, w stosunku do którego nałożono obowiązek uzyskania pozwolenia na użytkowanie obiektu budowlanego, jest obowiązany zawiadomić, zgodnie z właściwością wynikającą z przepisów szczególnych, organy (...) Państwowej Straży Pożarnej (...) o zakończeniu budowy obiektu budowlanego i zamiarze przystąpienia do jego użytkowania."
     },
     {
-        "question": "Kto jest obowiązany do zapoznania pracowników z przepisami przeciwpożarowymi?",
-        "options": [
-            { "text": "właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu", "correct": true },
-            { "text": "tylko właściciel budynku, obiektu budowlanego lub terenu", "correct": false },
-            { "text": "tylko zarządca budynku, obiektu budowlanego lub terenu", "correct": false }
+        question: "Zgodnie z zapisami ustawy Prawo budowlane składany przez organ administracji architektoniczno-budowlanej wniosek do właściwego ministra w sprawie upoważnienia do udzielenia zgody na odstępstwo od przepisów dotyczących bezpieczeństwa pożarowego musi zawierać, niezależnie od obiektu budowlanego, którego dotyczy:",
+        options: [
+            { text: "ekspertyzę rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych", correct: true },
+            { text: "opinię rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych", correct: false },
+            { text: "uzgodnienie rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu, są obowiązani do zapoznania pracowników z przepisami przeciwpożarowymi."
+        explanation: "<strong>Podstawa prawna:</strong> art. 9 ust. 3 ustawy Prawo budowlane<br/><strong>Wyjaśnienie:</strong> Wniosek do ministra, o którym mowa w ust. 1, w sprawie upoważnienia do udzielenia zgody na odstępstwo od przepisów techniczno-budowlanych, właściwy organ składa przed wydaniem decyzji o pozwoleniu na budowę albo decyzji o zmianie pozwolenia na budowę. Wniosek ten zawiera (...) w przypadku odstępstw od przepisów dotyczących bezpieczeństwa pożarowego – ekspertyzę rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych."
     },
     {
-        "question": "Kto jest obowiązany do ustalenia sposobów postępowania na wypadek powstania pożaru, klęski żywiołowej lub innego miejscowego zagrożenia?",
-        "options": [
-            { "text": "właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu", "correct": true },
-            { "text": "tylko właściciel budynku, obiektu budowlanego lub terenu", "correct": false },
-            { "text": "tylko zarządca budynku, obiektu budowlanego lub terenu", "correct": false }
+        question: "Zapewnienie przy wykonywaniu robót budowlanych stosowania wyrobów zgodnie z art. 10 ustawy Prawo budowlane należy do obowiązków:",
+        options: [
+            { text: "kierownika budowy", correct: true },
+            { text: "inwestora", correct: false },
+            { text: "projektanta", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 4.<br/><strong>Wyjaśnienie:</strong> Właściciel, zarządca lub użytkownik budynku, obiektu budowlanego lub terenu, są obowiązani do ustalenia sposobów postępowania na wypadek powstania pożaru, klęski żywiołowej lub innego miejscowego zagrożenia."
+        explanation: "<strong>Podstawa prawna:</strong> art. 22 pkt 4 ustawy Prawo budowlane<br/><strong>Wyjaśnienie:</strong> Do podstawowych obowiązków kierownika budowy należy (...) zapewnienie stosowania przy wykonywaniu robót budowlanych wyrobów zgodnie z art. 10."
     },
     {
-        "question": "Kto może zostać rzeczoznawcą do spraw zabezpieczeń przeciwpożarowych?",
-        "options": [
-            { "text": "osoba posiadająca tytuł zawodowy inżynier pożarnictwa lub magister inżynier pożarnictwa oraz przygotowanie zawodowe", "correct": true },
-            { "text": "każda osoba posiadająca wykształcenie wyższe", "correct": false },
-            { "text": "każdy strażak", "correct": false }
+        question: "Obowiązek ubezpieczenia odpowiedzialności cywilnej rzeczoznawcy ds. zabezpieczeń przeciwpożarowych za szkody wyrządzone w związku z jego działalnością polegająca na wykonywaniu ekspertyz z zakresu ochrony przeciwpożarowej powstałe nie później niż:",
+        options: [
+            { text: "w dniu poprzedzającym dzień rozpoczęcia wykonywania przez niego tych czynności", correct: true },
+            { text: "w dniu rozpoczęcia wykonywania przez niego tych czynności", correct: false },
+            { text: "w terminie 7 dni od dnia rozpoczęcia wykonywania przez niego tych czynności", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 11b.<br/><strong>Wyjaśnienie:</strong> Rzeczoznawcą do spraw zabezpieczeń przeciwpożarowych może być osoba posiadająca tytuł zawodowy inżynier pożarnictwa lub magister inżynier pożarnictwa oraz przygotowanie zawodowe potwierdzone egzaminem zdanym z wynikiem pozytywnym."
+        explanation: "<strong>Podstawa prawna:</strong> art. 11k ust. 2 ustawy o ochronie przeciwpożarowej<br/><strong>Wyjaśnienie:</strong> Obowiązek ubezpieczenia, o którym mowa w ust. 1, powstaje nie później niż w dniu poprzedzającym dzień rozpoczęcia wykonywania przez rzeczoznawcę do spraw zabezpieczeń przeciwpożarowych czynności, o których mowa w art. 11i ust. 1 pkt 1–3."
     },
     {
-        "question": "Jakie są zadania rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych?",
-        "options": [
-            { "text": "uzgadnianie projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych i projektów urządzeń przeciwpożarowych", "correct": true },
-            { "text": "wykonywanie przeglądów technicznych i czynności konserwacyjnych urządzeń przeciwpożarowych", "correct": false },
-            { "text": "prowadzenie szkoleń z zakresu ochrony przeciwpożarowej", "correct": false }
+        question: "Rzeczoznawca ds. zabezpieczeń przeciwpożarowych jest obowiązany do prowadzenia i przechowywania ewidencji uzgodnionych projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych oraz projektów technicznych i kopii zawiadomień o uzgodnieniu tych projektów wraz z dowodami ich wysłania, przez okres:",
+        options: [
+            { text: "5 lat", correct: true },
+            { text: "10 lat", correct: false },
+            { text: "okresu istnienia obiektu budowlanego", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 11d.<br/><strong>Wyjaśnienie:</strong> Do zadań rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych należy w szczególności uzgadnianie projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych i projektów urządzeń przeciwpożarowych."
+        explanation: "<strong>Podstawa prawna:</strong> art. 11i ust. 2 pkt 1 ustawy o ochronie przeciwpożarowej<br/><strong>Wyjaśnienie:</strong> Rzeczoznawca do spraw zabezpieczeń przeciwpożarowych jest obowiązany do prowadzenia i przechowywania ewidencji uzgodnionych projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych oraz projektów technicznych i kopii zawiadomień o uzgodnieniu tych projektów wraz z dowodami ich wysłania, przez okres 5 lat."
     },
     {
-        "question": "Kto sprawuje nadzór nad działalnością rzeczoznawców do spraw zabezpieczeń przeciwpożarowych?",
-        "options": [
-            { "text": "Komendant Główny Państwowej Straży Pożarnej", "correct": true },
-            { "text": "minister właściwy do spraw wewnętrznych", "correct": false },
-            { "text": "wojewoda", "correct": false }
+        question: "Podjęcie bądź zaniechanie w obiekcie budowlanym działalności zmieniającej warunki bezpieczeństwa pożarowego stanowi:",
+        options: [
+            { text: "zmianę sposobu użytkowania obiektu budowlanego", correct: true },
+            { text: "przebudowę obiektu budowlanego", correct: false },
+            { text: "remont obiektu budowlanego", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 11g.<br/><strong>Wyjaśnienie:</strong> Nadzór nad działalnością rzeczoznawców do spraw zabezpieczeń przeciwpożarowych sprawuje Komendant Główny Państwowej Straży Pożarnej."
+        explanation: "<strong>Podstawa prawna:</strong> art. 71 ust. 1 pkt 2 ustawy Prawo budowlane<br/><strong>Wyjaśnienie:</strong> Przez zmianę sposobu użytkowania obiektu budowlanego lub jego części rozumie się w szczególności podjęcie bądź zaniechanie w obiekcie budowlanym lub jego części działalności zmieniającej warunki: bezpieczeństwa pożarowego, powodziowego, pracy, zdrowotne, higieniczno-sanitarne, ochrony środowiska bądź wielkość lub układ obciążeń."
     },
     {
-        "question": "Jakie są sankcje za wykonywanie czynności rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych bez uprawnień?",
-        "options": [
-            { "text": "kara aresztu, ograniczenia wolności albo grzywny", "correct": true },
-            { "text": "tylko kara grzywny", "correct": false },
-            { "text": "tylko kara aresztu", "correct": false }
+        question: "Czy czynności z zakresu ochrony przeciwpożarowej, polegające na zapobieganiu i rozprzestrzeniania się pożaru, o którym mowa w art.4 ust.2a ustawy z dnia 24 sierpnia 1991 o ochronie przeciwpożarowej, wykonywane przez rzeczoznawcę do spraw zabezpieczeń przeciwpożarowych, są objęte sprawowanym przez PSP nadzorem nad działalnością rzeczoznawców?",
+        options: [
+            { text: "Tak, ale w przypadku gdy czynności te dotyczą gospodarowania odpadami oraz obiektów budowlanych istotnych ze względu na konieczność zapewnienia ochrony życia, zdrowia, mienia lub środowiska przed pożarem, klęską żywiołowa lub innym miejscowych zagrożeniem", correct: false },
+            { text: "Nie", correct: true },
+            { text: "Tak, tego rodzaju czynności wykonywane przez rzeczoznawcę ds. zabezpieczeń przeciwpożarowych są w całości objęte nadzorem na działalnością rzeczoznawców sprawowanym przez organy PSP", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 82.<br/><strong>Wyjaśnienie:</strong> Kto wykonuje czynności rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych, nie posiadając uprawnień, podlega karze aresztu, ograniczenia wolności albo grzywny."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 24 sierpnia 1991 r. o ochronie przeciwpożarowej (Dz. U. z 2021 r. poz. 869)<br/><strong>Wyjaśnienie:</strong> Art. 11n. 1. Nadzór nad działalnością rzeczoznawców sprawuje Komendant Główny Państwowej Straży Pożarnej przy pomocy komendantów wojewódzkich Państwowej Straży Pożarnej. 2. Nadzór nad działalnością rzeczoznawców jest sprawowany w zakresie: 1) uzgadniania przez nich projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych oraz projektów urządzeń przeciwpożarowych; 2) wykonywania przez nich ekspertyz technicznych lub opinii, o których mowa w przepisach dotyczących ochrony przeciw- pożarowej; 3) wywiązywania się przez nich z obowiązków, o których mowa w art. 6d ust. 2 oraz art. 11i ust. 2 pkt 1 i 3."
     },
     {
-        "question": "Jakie są sankcje za niewykonanie obowiązków z zakresu ochrony przeciwpożarowej?",
-        "options": [
-            { "text": "kara aresztu, grzywny albo nagany", "correct": true },
-            { "text": "tylko kara grzywny", "correct": false },
-            { "text": "tylko kara aresztu", "correct": false }
+        question: "Uzgodnienia przez rzeczoznawcę ds. zabezpieczeń przeciwpożarowych wymaga projekt budowlany garażu:",
+        options: [
+            { text: "zawierający w strefie pożarowej stanowiska postojowe przeznaczone dla więcej niż 20 samochodów na stanowiskach wielopoziomowych", correct: true },
+            { text: "zawierający w strefie pożarowej stanowiska postojowe przeznaczone dla więcej niż 10 samochodów na stanowiskach wielopoziomowych", correct: false },
+            { text: "obie odpowiedzi są nieprawidłowe", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 82.<br/><strong>Wyjaśnienie:</strong> Kto w inny sposób nie wykonuje obowiązków z zakresu ochrony przeciwpożarowej, podlega karze aresztu, grzywny albo nagany."
+        explanation: "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 5 sierpnia 2023 r. w sprawie uzgadniania projektu zagospodarowania działki lub terenu, projektu architektoniczno-budowlanego, projektu technicznego oraz projektu urządzenia przeciwpożarowego pod względem zgodności z wymaganiami ochrony przeciwpożarowej (Dz.U. 2023 poz. 1563)<br/><strong>Wyjaśnienie:</strong> § 3. 1. Obiektami budowlanymi istotnymi ze względu na konieczność zapewnienia ochrony życia, zdrowia, mienia lub środowiska przed pożarem, klęską żywiołową lub innym miejscowym zagrożeniem, których projekty zagospodarowania działki lub terenu, projekty architektoniczno budowlane oraz projekty techniczne wymagają uzgodnienia, są: 6) garaż: a) wielokondygnacyjny, b) jednokondygnacyjny zamknięty, wymagający zastosowania urządzenia oddymiającego lub stałego samoczynnego urządzenia gaśniczego wodnego, c) zawierający w strefie pożarowej stanowiska postojowe przeznaczone dla więcej niż 20 samochodów na stanowiskach wielopoziomowych;"
     },
     {
-        "question": "Jakie są sankcje za uniemożliwienie lub utrudnienie przeprowadzenia czynności kontrolno-rozpoznawczych?",
-        "options": [
-            { "text": "kara aresztu, ograniczenia wolności albo grzywny", "correct": true },
-            { "text": "tylko kara grzywny", "correct": false },
-            { "text": "tylko kara aresztu", "correct": false }
+        question: "Komendant Wojewódzki unieważnia uzgodnienie projektu PAB jeśli:",
+        options: [
+            { text: "projekt ten zawiera rozwiązania mające istotny wpływ na stan bezpieczeństwa pożarowego obiektu budowlanego", correct: true },
+            { text: "stwierdził w tym projekcie poważne naruszenie prawa", correct: false },
+            { text: "występuje naruszenie w zakresie ewakuacji", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 82a.<br/><strong>Wyjaśnienie:</strong> Kto uniemożliwia lub utrudnia przeprowadzenie czynności kontrolno-rozpoznawczych, podlega karze aresztu, ograniczenia wolności albo grzywny."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 24 sierpnia 1991 r. o ochronie przeciwpożarowej (Dz. U. z 2021 r. poz. 869)<br/><strong>Wyjaśnienie:</strong> Art. 6e. 1. Komendant wojewódzki Państwowej Straży Pożarnej właściwy dla miejsca lokalizacji obiektu do dnia uzyskania pozwolenia na jego użytkowanie unieważnia uzgodnienie projektu zagospodarowania działki lub terenu, projektu architektoniczno-budowlanego lub projektu technicznego, który zawiera rozwiązania niezgodne z wymaganiami ochrony przeciwpożarowej mające istotny wpływ na stan bezpieczeństwa pożarowego obiektu budowlanego."
     },
     {
-        "question": "Jakie są sankcje za spalanie słomy i pozostałości roślinnych na polach?",
-        "options": [
-            { "text": "kara aresztu, grzywny albo nagany", "correct": true },
-            { "text": "tylko kara grzywny", "correct": false },
-            { "text": "tylko kara aresztu", "correct": false }
+        question: "Rzeczoznawca zawiadamia Komendanta Głównego PSP o zamiarze przystąpienia do sprawdzianu (podnoszenie kwalifikacji zawodowych) co najmniej:",
+        options: [
+            { text: "na 14 dni przed terminem sprawdzianu", correct: true },
+            { text: "na 7 dni przed terminem sprawdzianu", correct: false },
+            { text: "na 30 dni przed terminem sprawdzianu", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 82.<br/><strong>Wyjaśnienie:</strong> Kto pali słomę i pozostałości roślinne na polach, podlega karze aresztu, grzywny albo nagany."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 24 sierpnia 1991 r. o ochronie przeciwpożarowej (Dz. U. z 2021 r. poz. 869)<br/><strong>Wyjaśnienie:</strong> Art. 11j. 6. Rzeczoznawca zawiadamia Komendanta Głównego Państwowej Straży Pożarnej o zamiarze przystąpienia do sprawdzianu co najmniej na 14 dni przed terminem sprawdzianu."
     },
     {
-        "question": "Jakie są sankcje za wypalanie traw, łąk, pastwisk, nieużytków, rowów, pasów przydrożnych, szlaków kolejowych oraz trzcinowisk i szuwarów?",
-        "options": [
-            { "text": "kara aresztu albo grzywny", "correct": true },
-            { "text": "tylko kara grzywny", "correct": false },
-            { "text": "tylko kara aresztu", "correct": false }
+        question: "Zgodnie z przepisami ustawy z dnia 7 lipca 1994 r. Prawo budowlane uczestnikiem procesu budowlanego, do obowiązków którego należy uzyskanie wymaganych opinii, uzgodnień i sprawdzeń rozwiązań projektowych w zakresie wynikającym z przepisów, jest:",
+        options: [
+            { text: "projektant", correct: true },
+            { text: "inwestor", correct: false },
+            { text: "kierownik budowy", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przyrody, Art. 131.<br/><strong>Wyjaśnienie:</strong> Kto wypala trawy, łąki, pastwiska, nieużytki, rowy, pasy przydrożne, szlaki kolejowe oraz trzcinowiska i szuwary, podlega karze aresztu albo grzywny."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 7 lipca 1994 r. Prawo budowlane (Dz.U. 1994 nr 89 poz. 414; tekst jednolity Dz.U. 2024 poz. 725)<br/><strong>Wyjaśnienie:</strong> Art. 20. 1. Do podstawowych obowiązków projektanta należy: 2) uzyskanie wymaganych opinii, uzgodnień i sprawdzeń rozwiązań projektowych w zakresie wynikającym z przepisów;"
     },
     {
-        "question": "Jakie są sankcje za rozniecanie ognia w lesie, na terenach śródleśnych, na obszarze łąk, torfowisk i wrzosowisk, jak również w odległości do 100 m od granicy lasu?",
-        "options": [
-            { "text": "kara aresztu, nagany albo grzywny", "correct": true },
-            { "text": "tylko kara grzywny", "correct": false },
-            { "text": "tylko kara aresztu", "correct": false }
+        question: "Obowiązujące przepisy w sprawie zakresu i formy projektu budowlanego określają obowiązek oznaczenia w części rysunkowej projektu technicznego klasy odporności ogniowej lub dymoszczelności:",
+        options: [
+            { text: "elementów oddzielenia przeciwpożarowego i obudowy dróg ewakuacyjnych, a także drzwi, bram lub innych zamknięć przeciwpożarowych", correct: false },
+            { text: "elementów oddzielenia przeciwpożarowego i obudowy dróg ewakuacyjnych", correct: false },
+            { text: "elementów oddzielenia przeciwpożarowego i innych elementów obiektu budowlanego, w których przejścia instalacyjne muszą być zabezpieczone pod względem przeciwpożarowym, a także drzwi, bram lub innych zamknięć przeciwpożarowych", correct: true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Kodeks wykroczeń, Art. 82.<br/><strong>Wyjaśnienie:</strong> Kto w lesie, na terenach śródleśnych, na obszarze łąk, torfowisk i wrzosowisk, jak również w odległości do <strong>100 m</strong> od granicy lasu roznieca ogień, z wyjątkiem miejsc wyznaczonych do tego celu, podlega karze aresztu, nagany albo grzywny."
+        explanation: "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Rozwoju z dnia 11 września 2020 r. w sprawie szczegółowego zakresu i formy projektu budowlanego (Dz. U. 2020 poz. 1609; tekst jednolity Dz. U. 2022 poz. 1679 z późn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2405, Dz. U. 2024 poz. 473)<br/><strong>Wyjaśnienie:</strong> § 9. 2. Część rysunkową projektu architektoniczno-budowlanego oraz technicznego zaopatruje się w oznaczenia klas odporności ogniowej lub dymoszczelności elementów oddzielenia przeciwpożarowego i innych elementów obiektu budowlanego, w których przejścia instalacyjne muszą być zabezpieczone pod względem przeciwpożarowym, a także drzwi, bram lub innych zamknięć przeciwpożarowych."
     },
     {
-        "question": "Jakie są sankcje za palenie tytoniu w miejscach, w których jest to zabronione?",
-        "options": [
-            { "text": "kara grzywny", "correct": true },
-            { "text": "kara aresztu", "correct": false },
-            { "text": "kara nagany", "correct": false }
+        question: "Rzeczoznawca do spraw zabezpieczeń przeciwpożarowych jest uprawniony do uzgadniania pod względem zgodności z wymaganiami ochrony przeciwpożarowej:",
+        options: [
+            { text: "projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych oraz projektów urządzeń przeciwpożarowych, a nie ma uprawnień do uzgadniania innych projektów", correct: false },
+            { text: "projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych oraz projektów urządzeń przeciwpożarowych, a także do uzgadniania innych projektów", correct: true },
+            { text: "projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych oraz projektów urządzeń przeciwpożarowych, a także do uzgadniania innych projektów, ale tylko w przypadku gdy wymóg ich uzgodnienia wynika z przepisów", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie zdrowia przed następstwami używania tytoniu i wyrobów tytoniowych, Art. 13.<br/><strong>Wyjaśnienie:</strong> Kto pali wyroby tytoniowe, w tym nowatorskie wyroby tytoniowe, lub papierosy elektroniczne wbrew przepisom art. 5, podlega karze grzywny do <strong>500 zł</strong>."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 7 lipca 1994 r. Prawo budowlane (Dz.U. 1994 nr 89 poz. 414; tekst jednolity Dz.U. 2024 poz. 725)<br/><strong>Wyjaśnienie:</strong> Art. 11i. 1. Rzeczoznawca jest uprawniony do: 1) uzgadniania projektów zagospodarowania działki lub terenu, projektów architektoniczno-budowlanych, projektów technicznych i projektów urządzeń przeciwpożarowych, o których mowa w art. 6b; 2) uzgadniania projektów innych niż określone w art. 6b; 3) sporządzania ekspertyz technicznych i innych opracowań technicznych z zakresu ochrony przeciwpożarowej; 4) wykonywania czynności, o których mowa w art. 4 ust. 2a."
     },
     {
-        "question": "Jakie są sankcje za sprowadzenie zdarzenia, które zagraża życiu lub zdrowiu wielu osób albo mieniu w wielkich rozmiarach, mające postać pożaru?",
-        "options": [
-            { "text": "kara pozbawienia wolności od roku do lat 10", "correct": true },
-            { "text": "kara pozbawienia wolności od 6 miesięcy do lat 8", "correct": false },
-            { "text": "kara pozbawienia wolności od 3 miesięcy do lat 5", "correct": false }
+        question: "Współpraca projektanta z rzeczoznawcą do spraw zabezpieczeń przeciwpożarowych przy uzgadnianiu pod względem zgodności z wymaganiami ochrony przeciwpożarowej projektu technicznego polega w szczególności na opracowaniu scenariusza pożarowego dla obiektu budowlanego lub jego części stanowiącej odrębną strefę pożarową, w przypadkach, w których przewidziano w nich stosowanie:",
+        options: [
+            { text: "żadna z odpowiedzi nie jest prawidłowa - rzeczoznawca samodzielnie opracowuje scenariusz pożarowy (bez udziału projektanta)", correct: false },
+            { text: "systemu sygnalizacji pożarowej, stałych urządzeń gaśniczych, urządzeń oddymiających lub urządzeń zapobiegających zadymieniu", correct: true },
+            { text: "systemu sygnalizacji pożarowej, a inne systemy lub urządzenia przeciwpożarowe nie mają w tej kwestii znaczenia", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Kodeks karny, Art. 163.<br/><strong>Wyjaśnienie:</strong> Kto sprowadza zdarzenie, które zagraża życiu lub zdrowiu wielu osób albo mieniu w wielkich rozmiarach, mające postać pożaru, podlega karze pozbawienia wolności od roku do lat <strong>10</strong>."
+        explanation: "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 5 sierpnia 2023 r. w sprawie uzgadniania projektu zagospodarowania działki lub terenu, projektu architektoniczno-budowlanego, projektu technicznego oraz projektu urządzenia przeciwpożarowego pod względem zgodności z wymaganiami ochrony przeciwpożarowej (Dz.U. 2023 poz. 1563)<br/><strong>Wyjaśnienie:</strong> § 5. Uzgodnienia projektu zagospodarowania działki lub terenu, projektu architektoniczno budowlanego, projektu technicznego oraz projektu urządzenia przeciwpożarowego dokonuje się w trakcie sporządzania tych projektów przez projektanta, w toku wzajemnej współpracy z rzeczoznawcą do spraw zabezpieczeń przeciwpożarowych, zwanym dalej „rzeczoznawcą”, polegającej na: 1) konsultacji rozwiązań projektowych w zakresie oceny ich zgodności z wymaganiami ochrony przeciwpożarowej; 2) wymianie uwag i stanowisk w zakresie projektowanych technicznych środków zabezpieczenia przeciwpożarowego; 3) opracowaniu scenariusza pożarowego dla obiektu budowlanego lub jego części stanowiącej odrębną strefę pożarową, w których przewidziano stosowanie systemu sygnalizacji pożarowej, stałych urządzeń gaśniczych, urządzeń oddymiających lub urządzeń zapobiegających zadymieniu."
     },
     {
-        "question": "Jakie są sankcje za sprowadzenie bezpośredniego niebezpieczeństwa zdarzenia określonego w art. 163 § 1?",
-        "options": [
-            { "text": "kara pozbawienia wolności od 6 miesięcy do lat 8", "correct": true },
-            { "text": "kara pozbawienia wolności od roku do lat 10", "correct": false },
-            { "text": "kara pozbawienia wolności od 3 miesięcy do lat 5", "correct": false }
+        question: "Zgodnie z przepisami ustawy z dnia 7 lipca 1994 r. Prawo budowlane zatwierdzeniu w decyzji o pozwoleniu na budowę podlegają:",
+        options: [
+            { text: "projekt zagospodarowania działki lub terenu oraz projekt architektoniczno-budowlany", correct: true },
+            { text: "jedynie projekt zagospodarowania działki lub terenu", correct: false },
+            { text: "projekt zagospodarowania działki lub terenu, projekt architektoniczno-budowlany oraz projekt techniczny", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Kodeks karny, Art. 164.<br/><strong>Wyjaśnienie:</strong> Kto sprowadza bezpośrednie niebezpieczeństwo zdarzenia określonego w art. 163 § 1, podlega karze pozbawienia wolności od <strong>6 miesięcy</strong> do lat <strong>8</strong>."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 7 lipca 1994 r. Prawo budowlane (Dz.U. 1994 nr 89 poz. 414; tekst jednolity Dz.U. 2024 poz. 725)<br/><strong>Wyjaśnienie:</strong> Art. 34. 4. Projekt zagospodarowania działki lub terenu oraz projekt architektoniczno-budowlany podlegają zatwierdzeniu w decyzji o pozwoleniu na budowę."
     },
     {
-        "question": "Jakie są sankcje za sprowadzenie pożaru, którego następstwem jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób?",
-        "options": [
-            { "text": "kara pozbawienia wolności od 2 do lat 12", "correct": true },
-            { "text": "kara pozbawienia wolności od roku do lat 10", "correct": false },
-            { "text": "kara pozbawienia wolności od 6 miesięcy do lat 8", "correct": false }
+        question: "Do zgłoszenia zmiany sposobu użytkowania obiektu budowlanego lub jego części polegającej na podjęciu lub zaniechaniu w obiekcie budowlanym lub jego części działalności zmieniającej warunki bezpieczeństwa pożarowego, które kierowane jest do organu administracji architektoniczno-budowlanej, należy dołączyć:",
+        options: [
+            { text: "ekspertyzę rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych", correct: true },
+            { text: "operat przeciwpożarowy rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych", correct: false },
+            { text: "żadnego z ww. dokumentów - odpowiedzi a i b są nieprawidłowe", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Kodeks karny, Art. 163.<br/><strong>Wyjaśnienie:</strong> Jeżeli następstwem czynu określonego w § 1 jest śmierć człowieka lub ciężki uszczerbek na zdrowiu wielu osób, sprawca podlega karze pozbawienia wolności od lat <strong>2</strong> do <strong>12</strong>."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 7 lipca 1994 r. Prawo budowlane (Dz.U. 1994 nr 89 poz. 414; tekst jednolity Dz.U. 2024 poz. 725)<br/><strong>Wyjaśnienie:</strong> Art. 71. 1. Przez zmianę sposobu użytkowania obiektu budowlanego lub jego części rozumie się w szczególności: 2) podjęcie bądź zaniechanie w obiekcie budowlanym lub jego części działalności zmieniającej warunki: bezpieczeństwa pożarowego, powodziowego, pracy, zdrowotne, higieniczno-sanitarne, ochrony środowiska bądź wielkość lub układ obciążeń; 2a. W przypadku zmiany sposobu użytkowania obiektu budowlanego lub jego części, polegającej na podjęciu lub zaniechaniu w obiekcie budowlanym lub jego części działalności zmieniającej warunki bezpieczeństwa pożarowego – do zgłoszenia, o którym mowa w ust. 2, należy dołączyć ekspertyzę rzeczoznawcy do spraw zabezpieczeń przeciwpożarowych."
     },
     {
-        "question": "Jakie są sankcje za nieumyślne sprowadzenie pożaru?",
-        "options": [
-            { "text": "kara pozbawienia wolności od 3 miesięcy do lat 5", "correct": true },
-            { "text": "kara pozbawienia wolności od roku do lat 10", "correct": false },
-            { "text": "kara pozbawienia wolności od 6 miesięcy do lat 8", "correct": false }
+        question: "Odpowiedzialność za realizację obowiązków z zakresu ochrony przeciwpożarowej dotyczących budynku, obiektu budowlanego lub terenu spoczywa:",
+        options: [
+            { text: "wyłącznie na właścicielu budynku, obiektu budowlanego lub terenu (niezależnie od przekazania tych nieruchomości innym osobom we władanie)", correct: false },
+            { text: "na właścicielu, zarządcy lub użytkowniku budynku, obiektu budowlanego lub terenu lub innym faktycznie władającym, stosownie do obowiązków i zadań powierzonych w odniesieniu do budynku, obiektu budowlanego lub terenu (związanych m. in. z zakresem władania)", correct: true },
+            { text: "na osobie posiadającej odpowiednie kwalifikacje z zakresu ochrony przeciwpożarowej, wykonującej wymagane przepisami czynności z tego obszaru", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Kodeks karny, Art. 163.<br/><strong>Wyjaśnienie:</strong> Jeżeli sprawca działa nieumyślnie, podlega karze pozbawienia wolności od <strong>3 miesięcy</strong> do lat <strong>5</strong>."
+        explanation: "<strong>Podstawa prawna:</strong> Ustawa z dnia 24 sierpnia 1991 r. o ochronie przeciwpożarowej (Dz. U. z 2021 r. poz. 869)<br/><strong>Wyjaśnienie:</strong> Art. 4. 1a. Odpowiedzialność za realizację obowiązków z zakresu ochrony przeciwpożarowej, o których mowa w ust. 1, stosownie do obowiązków i zadań powierzonych w odniesieniu do budynku, obiektu budowlanego lub terenu, przejmuje – w całości lub w części – ich zarządca lub użytkownik, na podstawie zawartej umowy cywilnoprawnej ustanawiającej zarząd lub użytkowanie. W przypadku gdy umowa taka nie została zawarta, odpowiedzialność za realizację obowiązków z zakresu ochrony przeciwpożarowej spoczywa na faktycznie władającym budynkiem, obiektem budowlanym lub terenem."
     },
     {
-        "question": "Kto dokonuje uzgodnienia projektu budowlanego pod względem ochrony przeciwpożarowej?",
-        "options": [
-            { "text": "rzeczoznawca do spraw zabezpieczeń przeciwpożarowych", "correct": true },
-            { "text": "komendant powiatowy (miejski) Państwowej Straży Pożarnej", "correct": false },
-            { "text": "komendant wojewódzki Państwowej Straży Pożarnej", "correct": false }
+        question: "Dokumentacją projektową, która zgodnie z obowiązującymi przepisami powinna być uzgodniona z rzeczoznawcą do spraw zabezpieczeń przeciwpożarowych pod względem zgodności z wymaganiami ochrony przeciwpożarowej przed rozpoczęciem robót budowlanych, polegających na budowie wysokościowego budynku biurowego, jest:",
+        options: [
+            { text: "projekt zagospodarowania działki lub terenu oraz projekt architektoniczny, o których mowa w przepisach ustawy z dnia 7 lipca 1994 r. - Prawo budowlane", correct: false },
+            { text: "projekt zagospodarowania działki lub terenu, projekt architektoniczno-budowlany oraz projekt techniczny, o których mowa w przepisach ustawy z dnia 7 lipca 1994 r. - Prawo budowlane", correct: true },
+            { text: "projekt techniczno-budowlany, o którym mowa w przepisach ustawy z dnia 7 lipca 1994 r. - Prawo budowlane, oraz projekt urządzenia przeciwpożarowego", correct: false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Ustawa o ochronie przeciwpożarowej, Art. 6b.<br/><strong>Wyjaśnienie:</strong> Uzgodnienia projektu budowlanego pod względem ochrony przeciwpożarowej dokonuje rzeczoznawca do spraw zabezpieczeń przeciwpożarowych."
+        explanation: "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 5 sierpnia 2023 r. w sprawie uzgadniania projektu zagospodarowania działki lub terenu, projektu architektoniczno-budowlanego, projektu technicznego oraz projektu urządzenia przeciwpożarowego pod względem zgodności z wymaganiami ochrony przeciwpożarowej (Dz.U. 2023 poz. 1563)<br/><strong>Wyjaśnienie:</strong> § 3. 1. Obiektami budowlanymi istotnymi ze względu na konieczność zapewnienia ochrony życia, zdrowia, mienia lub środowiska przed pożarem, klęską żywiołową lub innym miejscowym zagrożeniem, których projekty zagospodarowania działki lub terenu, projekty architektoniczno budowlane oraz projekty techniczne wymagają uzgodnienia, są: 2) budynek średniowysoki (SW), wysoki (W) lub wysokościowy (WW), zawierający strefę pożarową zakwalifikowaną do kategorii zagrożenia ludzi ZL III lub ZL IV;"
     }
 ];
