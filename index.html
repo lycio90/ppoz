@@ -28,8 +28,9 @@
             --text-dark: #e0e0e0;
             --primary-dark: #bb86fc;
             --primary-hover-dark: #a76ef4;
-            --accent-dark: #03dac6;
-            --accent-hover-dark: #01bfa5;
+            /* ZMIENIONE KOLORY AKCENTU DLA LEPSZEJ CZYTELNOŚCI */
+            --accent-dark: #64b5f6;
+            --accent-hover-dark: #42a5f5;
             --border-dark: #444;
             --shadow-dark: rgba(255,255,255,0.1);
             --correct-bg-dark: #2a3b2e;
@@ -170,6 +171,7 @@
         }
         body.dark-mode .quiz-selection-list button, body.dark-mode .action-button {
             background-color: var(--accent-dark);
+            /* ZMIENIONY KOLOR TEKSTU NA PRZYCISKACH DLA LEPSZEGO KONTRASTU */
             color: #000;
         }
         body.dark-mode .quiz-selection-list button:hover, body.dark-mode .action-button:hover {
@@ -226,7 +228,9 @@
             'quiz6': { title: "Wprowadzenie wyrobów budowlanych do obrotu" },
             'quiz7': { title: "Woda i Drogi" },
             'quiz8': { title: "Bierne zabezpieczenia" },
-            'quiz9': { title: "Zagadnienia formalno-prawne" } // Dodany nowy quiz
+            'quiz9': { title: "Zagadnienia formalno-prawne" },
+            'quiz10': { title: "Zapobieganie awariom przemysłowym" },
+            'quiz11': { title: "Instalacje fotowoltaiczne" }
         };
 
         const appContainer = document.getElementById('app-container');
