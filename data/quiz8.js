@@ -54,265 +54,130 @@ window.quiz8Questions = [
         explanation: "PN-EN 1363-1:2020-07 Badania odporności ogniowej -- Część 1: Wymagania ogólne, 10.4.5 Szczelność ogniowa."
     },
     {
-        question: "Stanem granicznym dla I – izolacyjności jest:",
+        question: "Jaką najwyższą klasę reakcji na ogień może uzyskać drewno lub materiały drewnopochodne poprzez zastosowanie materiałów ogniochronnych:",
         options: [
-            { text: "Wzrost średniej temperatury nienagrzewanej powierzchni o 180°C", correct: false },
-            { text: "Wzrost średniej temperatury nienagrzewanej powierzchni o 140°C", correct: true },
-            { text: "Wzrost temperatury w dowolnym punkcie o 200°C", correct: false }
+            { text: "B-s1,d0", correct: true },
+            { text: "B-s2,d0", correct: false },
+            { text: "C-s1,d0", correct: false }
         ],
-        explanation: "PN-EN 1363-1:2020-07 Badania odporności ogniowej -- Część 1: Wymagania ogólne, 10.4.6 Izolacyjność."
+        explanation: "Odporność ogniowa elementów budowlanych. Zabezpieczenia ogniochronne. PW str. 12<br/><a href='https://drive.usercontent.google.com/download?id=141vet675QBClOTFg-F8DHsO4fxlicfTj&export=view&authuser=0' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Klasa odporności ogniowej R – nośność ogniowa dotyczy:",
+        question: "System przebadany zgodnie z PN-EN 13381-1: Metody badań w celu ustalenia wpływu zabezpieczeń na odporność ogniową elementów konstrukcyjnych – Część 1: Poziome membrany zabezpieczające może stanowić zabezpieczenie dla:",
         options: [
-            { text: "Elementów oddzielających", correct: false },
-            { text: "Wyłącznie elementów nośnych", correct: false },
-            { text: "Elementów nośnych i oddzielających", correct: true }
+            { text: "stropu żelbetowego", correct: true },
+            { text: "stropu drewnianego", correct: false },
+            { text: "stropu stalowego z blachą trapezową", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Bierne zabezpieczenia przeciwpożarowe (podstawy). EZ str. 26"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1q0wySu1rnNhHzLjbm-yg4iOuUAFuUf8F' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a> <a href='https://drive.google.com/uc?export=view&id=12qlCzOW6kmY2c6DzSFS_ZR5PW7qFLFvc' target='_blank' rel='noopener noreferrer'>Zobacz materiał 2</a>"
     },
     {
-        question: "Które z podanych elementów budynku powinny posiadać klasę odporności ogniowej:",
+        question: "W zapisie klasyfikacyjnym EI t(ve-ho) S* multi przewodów wielostrefowych oddymiających „*” oznacza:",
         options: [
-            { text: "główna konstrukcja nośna, konstrukcja dachu, ściany wewnętrzne", correct: true },
-            { text: "główna konstrukcja nośna, świetliki, okna", correct: false },
-            { text: "tylko główna konstrukcja nośna", correct: false }
+            { text: "spełnienie wymagań szczelności na dym w temperaturze otoczenia i w warunkach pożaru", correct: true },
+            { text: "przewód przebadany w pozycji pionowej i poziomej", correct: false },
+            { text: "przewód przebadany od wewnątrz i od zewnątrz", correct: false }
         ],
-        explanation: "Warunki Techniczne, jakim powinny odpowiadać budynki i ich usytuowanie, § 216.<br/><a href='https://drive.google.com/uc?export=view&id=1dNzTq4vLwK2l2hF3J2l5kXpG9kR9vYm3' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "Brak linku w dostarczonych materiałach."
     },
     {
-        question: "Określenie „współczynnik szybkości zwęglania” dotyczy elementów:",
+        question: "Norma PN-EN 13381-7: Metody badań w celu ustalenia wpływu zabezpieczeń na odporność ogniową elementów konstrukcyjnych – Część 7: Zabezpieczenia elementów drewnianych:",
         options: [
-            { text: "stalowych", correct: false },
-            { text: "drewnianych", correct: true },
-            { text: "betonowych", correct: false }
+            { text: "nie ma zastosowania do zabezpieczeń ogniochronnych, które opierają się na pęcznieniu chemicznym", correct: false },
+            { text: "ma zastosowanie do zabezpieczeń ogniochronnych, które opierają się na pęcznieniu chemicznym", correct: true },
+            { text: "nie ma zastosowania do zabezpieczeń ogniochronnych", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje drewniane. PW str. 23"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1Wwh4ErEgFPVEaEVues6_QlyI6WV1Rw6w' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Szybkość zwęglania elementów drewnianych zależy od:",
+        question: "Im większa jest wartość wskaźnika ekspozycji przekroju elementu stalowego (np. belki lub słupa), tym co do zasady element będzie nagrzewany:",
         options: [
-            { text: "gęstości drewna", correct: true },
-            { text: "grubości elementu", correct: false },
-            { text: "czasu", correct: false }
+            { text: "szybciej", correct: true },
+            { text: "wolniej", correct: false },
+            { text: "z taką samą prędkością", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje drewniane. PW str. 24"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=16CMKZdKOMDWjgfiAq8XirChK2khTewA3' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Która z wymienionych metod określania odporności ogniowej konstrukcji stalowych niezabezpieczonych jest najbardziej dokładna:",
+        question: "Belki ażurowe (belki z otworami w środnikach) mogą być zabezpieczane produktami badanymi zgodnie z normą PN-EN 13381-4:",
         options: [
-            { text: "metoda zaawansowana", correct: true },
-            { text: "metoda uproszczona", correct: false },
-            { text: "wskaźnik masywności przekroju", correct: false }
+            { text: "Tak", correct: false },
+            { text: "Nie", correct: true },
+            { text: "Tak, ale tylko w przypadku otworów okrągłych", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje stalowe. PW str. 21"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1GUV_XEhKoeGqhBaFTnQ0LLyAVBtozGgq' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Temperatura krytyczna stali to:",
+        question: "Zgodnie z przepisami Ministra Infrastruktury z dnia 12 kwietnia 2022 r. w sprawie warunkom technicznym, jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. z 2022 r. poz. 1225) budynek i urządzenia z nim związane powinny być projektowane i wykonywane w sposób zapewniający w razie pożaru:",
         options: [
-            { text: "temperatura, w której stal traci swoje właściwości", correct: false },
-            { text: "temperatura, powyżej której element stalowy ulega zniszczeniu", correct: true },
-            { text: "najwyższa temperatura, do której można podgrzać stal", correct: false }
+            { text: "nośność konstrukcji przez określony czas, ograniczenie rozprzestrzeniania się ognia i dymu, bezpieczeństwo ekip ratowniczych", correct: true },
+            { text: "nośność konstrukcji przez określony czas, możliwość ewakuacji ludzi", correct: false },
+            { text: "możliwość ewakuacji ludzi, bezpieczeństwo ekip ratowniczych", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje stalowe. PW str. 11<br/><a href='https://drive.google.com/uc?export=view&id=1uD9q2b6RzV3w-8V6YvYy9xK1wF7v6jZ4' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.usercontent.google.com/download?id=1e0jwDbACo9KdI62i9h6_wl5pymv2WkY3&export=view&authuser=0' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Który z podanych systemów zabezpieczeń ogniochronnych konstrukcji stalowych jest najczęściej stosowany w Polsce:",
+        question: "W KOT/EOT produktów zabezpieczający konstrukcję żelbetową występuje ograniczenie dotyczące:",
         options: [
-            { text: "farby pęczniejące", correct: true },
-            { text: "natryski ogniochronne", correct: false },
-            { text: "płyty ogniochronne", correct: false }
+            { text: "minimalnej grubości elementu, minimalnego wymiaru przekroju, minimalnej odległości osiowej zbrojenia", correct: true },
+            { text: "maksymalnej grubości elementu", correct: false },
+            { text: "maksymalnej odległości osiowej zbrojenia", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje stalowe. PW str. 24"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=19HFuy1wgleKFJOJeKsg9Ce2QI_KWQ8Ga' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a> <a href='https://drive.google.com/uc?export=view&id=1TW3m6GE5MQ_hVFy6S9lifStdPHU2S5p8' target='_blank' rel='noopener noreferrer'>Zobacz materiał 2</a> <a href='https://drive.google.com/uc?export=view&id=1byVhR2sW6sqkicsxUdvHTY6Pgt1B1H5i' target='_blank' rel='noopener noreferrer'>Zobacz materiał 3</a>"
     },
     {
-        question: "Grubość zabezpieczenia ogniochronnego konstrukcji stalowej zależy od:",
+        question: "Dane dotyczące wymaganej grubości zabezpieczenia ogniochronnego w postaci farby pęczniejącej do zapewnienia elementu stalowemu (np. słupowi lub belce) określonej klasy odporności ogniowej można znaleźć w:",
         options: [
-            { text: "masywności profilu stalowego", correct: true },
-            { text: "długości elementu", correct: false },
-            { text: "rodzaju farby", correct: false }
+            { text: "Krajowej Ocenie Technicznej", correct: false },
+            { text: "Europejskiej Ocenie Technicznej", correct: false },
+            { text: "Wszystkie odpowiedzi są poprawne", correct: true }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje stalowe. PW str. 26<br/><a href='https://drive.google.com/uc?export=view&id=14q2-W-tC3j8v-sX2kR9d8wX0zY4Z-l6q' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=14V9Kj-AeCU5fhFlQklyapglMriXLPYPj' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Wskaźnik masywności U/A dla profilu stalowego to:",
+        question: "Rozpatrując z punktu widzenia bezpieczeństwa pożarowego nośność ogniową w identycznych warunkach (np. słupy) o przekrojach klasy 1 oraz klasy 4, to co do zasady:",
         options: [
-            { text: "stosunek obwodu przekroju narażonego na działanie ognia do pola przekroju poprzecznego", correct: true },
-            { text: "stosunek pola przekroju poprzecznego do obwodu przekroju narażonego na działanie ognia", correct: false },
-            { text: "stosunek masy do powierzchni", correct: false }
+            { text: "przekrój klasy 1 będzie miał większą nośność ogniową", correct: true },
+            { text: "przekrój klasy 4 będzie miał większą nośność ogniową", correct: false },
+            { text: "nośność ogniowa będzie taka sama", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje stalowe. PW str. 17<br/><a href='https://drive.google.com/uc?export=view&id=11u5q0J6oT9p-g4M7L1kS2R-v8r3yW9Z9' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1d2uNf447vUf5wI3gWXWxdbnaaTHyz7qy' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
-        question: "Zabezpieczenie ogniochronne typu EI 60 dla przepustu instalacyjnego oznacza, że:",
+        question: "Zgodnie z PN-EN 1995-1-2 βn to:",
         options: [
-            { text: "przez 60 minut zachowuje szczelność i izolacyjność ogniową", correct: true },
-            { text: "przez 60 minut zachowuje nośność i szczelność ogniową", correct: false },
-            { text: "przez 60 minut zachowuje nośność, szczelność i izolacyjność ogniową", correct: false }
+            { text: "współczynnik szybkości zwęglania dla powierzchni chronionych początkowo przez t_ch", correct: true },
+            { text: "współczynnik szybkości zwęglania dla powierzchni niechronionych", correct: false },
+            { text: "współczynnik szybkości zwęglania dla powierzchni chronionych przez cały czas trwania pożaru", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Bierne zabezpieczenia przeciwpożarowe (podstawy). EZ str. 26"
+        explanation: "Brak linku w dostarczonych materiałach."
     },
     {
-        question: "Systemy oddymiania grawitacyjnego stosowane są w celu:",
+        question: "Wykonując analizę konstrukcji zgodnie z PN-EN 1991-1-2:2006 Eurokod 1: Oddziaływanie na konstrukcje – Część 1-2: Oddziaływanie ogólne - Oddziaływanie w warunkach pożaru, efekty oddziaływań (obciążeń) w sytuacji pożarowej (sytuacja wyjątkowa) będą od oddziaływań w sytuacji normalnej (projektowanie na warunki normalne):",
         options: [
-            { text: "usunięcia dymu i ciepła z budynku", correct: true },
-            { text: "zapobiegania rozprzestrzenianiu się dymu", correct: false },
-            { text: "ochrony konstrukcji budynku przed wysoką temperaturą", correct: false }
+            { text: "mniejsze", correct: true },
+            { text: "większe", correct: false },
+            { text: "takie same", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Systemy oddymiania. MSS str. 4<br/><a href='https://drive.google.com/uc?export=view&id=1w-R7B4y-f8y-3h1Y8t5o2g4g4R6J8e9K' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=12hkcfk0uf051kZw8AeoQjx1fEktEd4-e' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a> <a href='https://drive.google.com/uc?export=view&id=1PTLHM9CI2BqkjkGggsg35OrsmpDNpCQv' target='_blank' rel='noopener noreferrer'>Zobacz materiał 2</a>"
     },
     {
-        question: "Zgodnie z normą PN-EN 13501-2 ściany klasyfikuje się ze względu na:",
+        question: "Wykonując analizę konstrukcji zgodnie z PN-EN 1991-1-2:2006 Eurokod 1: Oddziaływanie na konstrukcje – Część 1-2: Oddziaływanie ogólne - Oddziaływania w warunkach pożaru, efekty oddziaływań (obciążeń) w sytuacji normalnej (projektowanie na warunki normalne) będą od oddziaływań w sytuacji pożarowej (sytuacja wyjątkowa):",
         options: [
-            { text: "szczelność ogniową (E) i izolacyjność ogniową (I)", correct: true },
-            { text: "nośność ogniową (R) i szczelność ogniową (E)", correct: false },
-            { text: "nośność ogniową (R), szczelność ogniową (E) i izolacyjność ogniową (I)", correct: false }
+            { text: "większe", correct: true },
+            { text: "mniejsze", correct: false },
+            { text: "takie same", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Klasyfikacja ogniowa. MSS str. 11"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=12hkcfk0uf051kZw8AeoQjx1fEktEd4-e' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a> <a href='https://drive.google.com/uc?export=view&id=1PTLHM9CI2BqkjkGggsg35OrsmpDNpCQv' target='_blank' rel='noopener noreferrer'>Zobacz materiał 2</a>"
     },
     {
-        question: "Oznaczenie M w klasyfikacji ogniowej dotyczy:",
+        question: "Zgodne z normą EN 1366-3 izolację rur do instalacji ogólnobudowlanych dzielimy na:",
         options: [
-            { text: "odporności na uderzenie mechaniczne", correct: true },
-            { text: "możliwości ruchu", correct: false },
-            { text: "masywności", correct: false }
+            { text: "izolacje do rur palnych i niepalnych", correct: true },
+            { text: "izolacje do rur metalowych i z tworzyw sztucznych", correct: false },
+            { text: "izolacje do rur o średnicy do 160 mm i powyżej 160 mm", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Klasyfikacja ogniowa. MSS str. 13<br/><a href='https://drive.google.com/uc?export=view&id=1tN5o7Y3h9X9X6j5u9e8J8q5c6l5j4k3l' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
-    },
-    {
-        question: "Przegrody przezroczyste, takie jak przeszklenia, powinny być badane zgodnie z normą:",
-        options: [
-            { text: "PN-EN 1364-1", correct: true },
-            { text: "PN-EN 1365-1", correct: false },
-            { text: "PN-EN 1366-1", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Przegrody przezroczyste. MSS str. 3"
-    },
-    {
-        question: "W przypadku ścian gipsowo-kartonowych o odporności ogniowej, kluczowe znaczenie ma:",
-        options: [
-            { text: "rodzaj i grubość płyt g-k oraz konstrukcja nośna", correct: true },
-            { text: "tylko grubość płyt g-k", correct: false },
-            { text: "tylko rodzaj konstrukcji nośnej", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Ściany i stropy. MSS str. 15<br/><a href='https://drive.google.com/uc?export=view&id=1b-f8c-4R6j2k5l4u9d8c7b6a5e4d3c2b' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
-    },
-    {
-        question: "Czy konstrukcje murowane z cegły pełnej na zaprawie cementowo-wapiennej posiadają naturalną odporność ogniową?",
-        options: [
-            { text: "Tak, ze względu na niepalność materiałów", correct: true },
-            { text: "Nie, wymagają dodatkowych zabezpieczeń", correct: false },
-            { text: "Zależy od grubości ściany", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje murowe. EZ str. 3"
-    },
-    {
-        question: "Który z systemów biernych zabezpieczeń przeciwpożarowych jest stosowany do ochrony dylatacji?",
-        options: [
-            { text: "masy i pianki ogniochronne", correct: true },
-            { text: "farby pęczniejące", correct: false },
-            { text: "natryski ogniochronne", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Przejścia instalacyjne i dylatacje. MSS str. 18"
-    },
-    {
-        question: "Badanie odporności ogniowej drzwi i zamknięć otworów przeprowadza się zgodnie z normą:",
-        options: [
-            { text: "PN-EN 1634-1", correct: true },
-            { text: "PN-EN 1364-1", correct: false },
-            { text: "PN-EN 1366-3", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Drzwi i bramy. MSS str. 3"
-    },
-    {
-        question: "Odporność ogniowa stropów żelbetowych zależy głównie od:",
-        options: [
-            { text: "grubości otuliny zbrojenia i grubości płyty", correct: true },
-            { text: "klasy betonu", correct: false },
-            { text: "rodzaju stali zbrojeniowej", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje betonowe. EZ str. 15"
-    },
-    {
-        question: "Co oznacza klasa odporności ogniowej K2 60?",
-        options: [
-            { text: "zdolność przegrody do ochrony przed zapaleniem materiałów znajdujących się za nią przez 60 minut", correct: true },
-            { text: "zdolność przegrody do zachowania nośności przez 60 minut", correct: false },
-            { text: "zdolność przegrody do zachowania szczelności przez 60 minut", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Klasyfikacja ogniowa. MSS str. 14"
-    },
-    {
-        question: "Zgodnie z normą PN-EN 1995-1-2, projektowa szybkość zwęglania jednokierunkowego dla drewna litego wynosi:",
-        options: [
-            { text: "0,65 mm/min", correct: true },
-            { text: "0,80 mm/min", correct: false },
-            { text: "0,50 mm/min", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje drewniane. PW str. 25"
-    },
-    {
-        question: "W przypadku przejść instalacyjnych dla rur palnych, stosuje się:",
-        options: [
-            { text: "opaski lub kołnierze ogniochronne pęczniejące", correct: true },
-            { text: "wełnę mineralną", correct: false },
-            { text: "piankę poliuretanową", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Przejścia instalacyjne i dylatacje. MSS str. 10"
-    },
-    {
-        question: "Klasa reakcji na ogień B-s1,d0 oznacza, że materiał jest:",
-        options: [
-            { text: "trudno zapalny, o bardzo małej ilości wydzielanego dymu i bez płonących kropel", correct: true },
-            { text: "niezapalny", correct: false },
-            { text: "łatwo zapalny", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Klasyfikacja ogniowa. MSS str. 6"
-    },
-    {
-        question: "Zabezpieczenie kabli elektrycznych w celu zachowania ciągłości dostawy energii (PH) realizuje się przez:",
-        options: [
-            { text: "obudowę kanałami z płyt ogniochronnych", correct: true },
-            { text: "malowanie farbami pęczniejącymi", correct: false },
-            { text: "prowadzenie w rurach stalowych", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Trasy kablowe. MSS str. 5<br/><a href='https://drive.google.com/uc?export=view&id=1C-r2f6tG8H7I5j4k3l2h1g0f9e8d7c6b' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
-    },
-    {
-        question: "Zgodnie z Eurokodem 5, warstwa zwęglona drewna o grubości 25 mm:",
-        options: [
-            { text: "jest uwzględniana w obliczeniach nośności jako warstwa izolacyjna", correct: true },
-            { text: "jest pomijana w obliczeniach nośności", correct: false },
-            { text: "jest traktowana jako dodatkowe obciążenie", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje drewniane. PW str. 28"
-    },
-    {
-        question: "Jaki jest cel stosowania klap odcinających w systemach wentylacji pożarowej?",
-        options: [
-            { text: "zapobieganie rozprzestrzenianiu się ognia i dymu przez przewody wentylacyjne", correct: true },
-            { text: "zwiększenie ciągu w kanałach wentylacyjnych", correct: false },
-            { text: "schłodzenie dymu w instalacji", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Wentylacja pożarowa. MSS str. 3"
-    },
-    {
-        question: "Minimalna grubość otuliny betonowej dla prętów zbrojeniowych w belce żelbetowej wymaganej klasy R60 wynosi:",
-        options: [
-            { text: "zależy od średnicy prętów i odległości osiowej", correct: true },
-            { text: "zawsze 20 mm", correct: false },
-            { text: "zawsze 30 mm", correct: false }
-        ],
-        explanation: "Odporność ogniowa elementów budowlanych. Konstrukcje betonowe. EZ - Tabela 5.5<br/><a href='https://drive.google.com/uc?export=view&id=1J7k4l3m2n1o0p9q8r7s6t5u4v3w2x1y' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
-    },
-    {
-        question: "Czy dopuszcza się stosowanie zamiennych rozwiązań w stosunku do wymagań ochrony przeciwpożarowej?",
-        options: [
-            { text: "Tak, po uzyskaniu zgody właściwego komendanta wojewódzkiego PSP", correct: true },
-            { text: "Nie, wymagania są bezwzględne", correct: false },
-            { text: "Tak, jeśli projektant uzna to za stosowne", correct: false }
-        ],
-        explanation: "Prawo Budowlane, Art. 6a.<br/><a href='https://drive.google.com/uc?export=view&id=1P9q8r7s6t5u4v3w2x1y_J7k4l3m2n1o0' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1-1lerpFSoYdgWiDus388BPfML7whSE0Q' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
         question: "Przykładowa klasyfikacja ogniowa dylatacji została określona w następujący sposób EI120-H-M7,5-F-W 5 do 100. Co oznacza parametr H?",
@@ -321,7 +186,7 @@ window.quiz8Questions = [
             { text: "uszczelnienie złączy liniowych: pionowa konstrukcja nośna - dylatacje pionowe", correct: false },
             { text: "uszczelnienie złączy liniowych: pionowa konstrukcja nośna - dylatacja pozioma", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Przejścia instalacyjne i dylatacje. MSS str. 23<br/><a href='https://drive.google.com/uc?export=view&id=12i40KC7rg3Bhd_bK0lfR_LvsHfIyfUhY' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=12i40KC7rg3Bhd_bK0lfR_LvsHfIyfUhY' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
     },
     {
         question: "Środki ognioochronne pozwalające na podniesienie klasy reakcji na ogień materiału lub wyrobu budowlanego dzieli się na:",
@@ -330,6 +195,150 @@ window.quiz8Questions = [
             { text: "środki zabezpieczające i przeciw płomieniowe", correct: false },
             { text: "impregnaty i lakiery powierzchniowo czynne", correct: false }
         ],
-        explanation: "Odporność ogniowa elementów budowlanych. Zabezpieczenia ogniochronne. PW str. 4<br/><a href='https://drive.google.com/uc?export=view&id=1R7s6t5u4v3w2x1y_J7k4l3m2n1o0P9q' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1f_a9iWWXtMMHyraDhPknsZg8fMTisZ3q' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Wskaźnik ekspozycji przekroju elementu stalowego (np. belki lub słupa) bez izolacji ogniochronnej to:",
+        options: [
+            { text: "stosunek obwodu przekroju narażonego na działanie ognia do pola przekroju poprzecznego", correct: true },
+            { text: "stosunek pola przekroju poprzecznego do obwodu przekroju narażonego na działanie ognia", correct: false },
+            { text: "stosunek masy do powierzchni", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=198FguyPD1hWOdn6FmLk7ku3WRsLe-Pzb' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Tabela poniżej pochodzi z EN 1995-1-2. Uzupełnij ją: link - https://drive.google.com/uc?export=view&id=1dLYxZDMl2RtmPSRZhWoVbt-etlQTyYRA",
+        options: [
+            { text: "β0 = 0,7 mm/min, βn = 0,7 mm/min", correct: false },
+            { text: "β0 = 0,65 mm/min, βn = 0,7 mm/min", correct: true },
+            { text: "β0 = 0,7 mm/min, βn = 0,65 mm/min", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1yGd45RhMGB9uHLImHrPdqO7QtKCIsd_g' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Dane tabelaryczne zamieszczone w Polskiej Normie PN-EN 1992-1-2:2008 Eurokod 2: Projektowanie konstrukcji z betonu - Część 1-2: Reguły ogólne - Projektowanie z uwagi na warunki pożarowe, pozwalające na określanie klasy odporności ogniowej podstawowych typów elementów żelbetowych, dotyczą:",
+        options: [
+            { text: "elementów wykonanych z betonu zwykłego", correct: true },
+            { text: "elementów wykonanych z betonu lekkiego", correct: false },
+            { text: "elementów wykonanych z betonu ciężkiego", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1aPppmghHNtmHyUXjImOMUX7jQD9I9C0v' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Parametrem charakteryzującym skuteczność ogniochronną zabezpieczenia elementów z betonu, pozwalającym na właściwe zaprojektowanie tego zabezpieczenia, jest:",
+        options: [
+            { text: "równoważna grubość betonu", correct: true },
+            { text: "grubość ekwiwalentna betonu", correct: false },
+            { text: "grubość zastępcza betonu", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=187KW4XGAF8UjEVQdsq3S5eutaqmWUOlv' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Wyniki analizy na podstawie norm PN-EN 13381-4 oraz PN-EN 13381-8 (dot. metod badań w celu ustalania wpływu zabezpieczeń na odporność ogniową elementów konstrukcyjnych) nie obejmują zabezpieczenia m.in.:",
+        options: [
+            { text: "belek ażurowych", correct: true },
+            { text: "belek pełnych", correct: false },
+            { text: "słupów", correct: false }
+        ],
+        explanation: "Brak linku w dostarczonych materiałach."
+    },
+    {
+        question: "Przykładowa klasyfikacja ogniowa dylatacji została określona w następujący sposób EI120-H-M50-F-W 5 do 100. Jak należy interpretować oznaczenie M50:",
+        options: [
+            { text: "Odporność na oddziaływanie mechaniczne 50 Nm", correct: true },
+            { text: "Możliwość ruchu 50%", correct: false },
+            { text: "Masa wypełnienia 50 kg/m2", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1DPxBIfqHQqIUm_Fn9g8t86YT-g4qKfwL' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "W danych tabelarycznych zawartych w Polskiej Normie PN-EN 1992-1-2:2008 Eurokod 2: Projektowanie konstrukcji z betonu - Część 1-2: Reguły ogólne - Projektowanie z uwagi na warunki pożarowe, jedną z danych ujętych w tabeli Metody A, służącej do określania (oceny) klasy odporności ogniowej słupów żelbetowych, jest:",
+        options: [
+            { text: "smukłość słupa w warunkach pożaru", correct: true },
+            { text: "długość wyboczeniowa słupa", correct: false },
+            { text: "klasa betonu", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1rErPQG6OOh4zhwgVSxsVW6PaXGkK_wXj' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Zgodnie z Polską Normą PN-EN 1993-1-2:2007 Eurokod 3: Projektowanie konstrukcji stalowych - Część 1-2: Reguły ogólne - Obliczanie konstrukcji z uwagi na warunki pożarowe zaleca się przyjmować temperaturę krytyczną dla elementów stalowych klasy 4 równą:",
+        options: [
+            { text: "350°C", correct: true },
+            { text: "400°C", correct: false },
+            { text: "500°C", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1fAEJB2E7-YNIQbg_lC5E3Xd9wyDzEQzi' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Wskaźnik przekroju zabezpieczonego skrzynkowo dla belki HEB poddanej oddziaływaniu pożaru z trzech stron (przylegającej do stropu półką górną), o wymiarach jak na rysunku: link - https://drive.google.com/uc?export=view&id=1rhE4Ivl94swIoCXHBvfNM_FNRAFVQ7Nh",
+        options: [
+            { text: "2h+b", correct: false },
+            { text: "2(h+b)", correct: false },
+            { text: "h+2b", correct: true }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1qEHrVZLEmWVDcJUVXa73AeMJP168mV9A' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a> <a href='https://drive.google.com/uc?export=view&id=1TwLOOxxr1b6LJ0Ajh1VxMHQjhjRJeYEI' target='_blank' rel='noopener noreferrer'>Zobacz materiał 2</a>"
+    },
+    {
+        question: "Jeżeli wskaźnik wykorzystania przekroju dla elementów nośnych wynosi 1,25 to oznacza to, że:",
+        options: [
+            { text: "element jest przeciążony", correct: true },
+            { text: "element ma zapas nośności 25%", correct: false },
+            { text: "element jest zaprojektowany optymalnie", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=18pvc1cxktH6LelSkjiSywywLpf7MsuUX' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "W przedstawionej w Polskiej Normie PN-EN 1992-1-2:2008 Eurokod 2: Projektowanie konstrukcji z betonu - Część 1-2: Reguły ogólne - Projektowanie z uwagi na warunki pożarowe metodzie danych tabelarycznych służącej do oceny odporności ogniowej słupów pn. „Metoda A” pomiędzy wartościami podanymi w tablicy można dokonywać:",
+        options: [
+            { text: "interpolacji liniowej", correct: true },
+            { text: "ekstrapolacji liniowej", correct: false },
+            { text: "nie można dokonywać interpolacji ani ekstrapolacji", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1Xaix6QgtJrGM6Yqbqnq69gMhZdmxBQcU' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Zgodnie z Polską Normą PN-EN 1993-1-1:2006 Eurokod 3: Projektowanie konstrukcji stalowych - Część 1-1: Reguły ogólne i reguły dla budynków na klasyfikację przekroju elementu stalowego (np. belki) ma wpływ stosunek szerokości do grubości jego części (środnika lub pasa) poddanych:",
+        options: [
+            { text: "ściskaniu", correct: true },
+            { text: "rozciąganiu", correct: false },
+            { text: "ścinaniu", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1Y2oCSXXdfszUnUJ6AQa1n55ZX0yC3GxW' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Dane tabelaryczne podane w Polskiej Normie PN-EN 1992-1-2:2008 Eurokod 2: Projektowanie konstrukcji z betonu - Część 1-2: Reguły ogólne - Projektowanie z uwagi na warunki pożarowe, które służą do określania (oceny) klasy odporności ogniowej elementów żelbetowych, są oparte na:",
+        options: [
+            { text: "ograniczonej liczbie wyników badań i analiz parametrycznych", correct: true },
+            { text: "wyłącznie na wynikach badań", correct: false },
+            { text: "wyłącznie na analizach parametrycznych", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1YWaFMnBdKY5fMh-3UQNhh63iAbEnp-_7' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Dobierając zabezpieczenie konturowe w celu zapewnienia odpowiedniej klasy odporności ogniowej (w postaci konkretnej farby pęczniejącej) dla dwóch różnych belek stalowych o takiej samej temperaturze krytycznej, przy założeniu takich samych warunków oddziaływania pożaru belka o istotnie niższym wskaźniku ekspozycji przekroju co do zasady będzie wymagała zastosowania zabezpieczenia o grubości:",
+        options: [
+            { text: "mniejszej", correct: true },
+            { text: "większej", correct: false },
+            { text: "takiej samej", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1Z9Ct4xi26MfbCF0F2qQX9YyyszZ_T-2X' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Prędkość zwęglania elementów konstrukcyjnych określona w Eurokodach wynosi około:",
+        options: [
+            { text: "0,7 mm/min", correct: true },
+            { text: "1,0 mm/min", correct: false },
+            { text: "0,5 mm/min", correct: false }
+        ],
+        explanation: "<a href='https://drive.google.com/uc?export=view&id=1yGd45RhMGB9uHLImHrPdqO7QtKCIsd_g' target='_blank' rel='noopener noreferrer'>Zobacz materiał 1</a>"
+    },
+    {
+        question: "Klasyfikacja El1/El2 są stosowane dla drzwi ppoż. Która z tych klasyfikacji jest bardziej rygorystyczna?",
+        options: [
+            { text: "EI2", correct: true },
+            { text: "EI1", correct: false },
+            { text: "Obie są tak samo rygorystyczne", correct: false }
+        ],
+        explanation: "Brak linku w dostarczonych materiałach."
     }
 ];
