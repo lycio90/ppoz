@@ -220,6 +220,7 @@
     </div>
 
     <script>
+        // Definicje quizów. Klucz (np. 'quiz17') odpowiada nazwie pliku .js w folderze /data/
         const quizData = {
             'quiz1': { title: "Stałe urządzenia gaśnicze - gazowe" },
             'quiz3': { title: "Rozwiązania zamienne i alternatywne" },
@@ -234,7 +235,9 @@
             'quiz12': { title: "Instalacje elektryczne" },
             'quiz13': { title: "Awaryjne oświetlenie ewakuacyjne" },
             'quiz14': { title: "Bezpieczeństwo pożarowe budynków" },
-            'quiz15': { title: "Bezpieczeństwo pożarowe obiektów budowlanych" }
+            'quiz15': { title: "Bezpieczeństwo pożarowe obiektów budowlanych" },
+            'quiz17': { title: "SUG_W - PN-EN 12845" },
+            'quiz18': { title: "SUG_W - VDS, NFPA, FM GLOBAL" } // Nowy quiz
         };
 
         const appContainer = document.getElementById('app-container');
@@ -246,6 +249,7 @@
         };
         const SCORES_KEY = 'PPOZ_QUIZ_SCORES';
 
+        // Funkcja do tasowania tablicy (pytań lub odpowiedzi)
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -253,17 +257,20 @@
             }
         }
 
+        // Wczytuje zapisane wyniki z localStorage
         function loadScores() {
             const scores = localStorage.getItem(SCORES_KEY);
             return scores ? JSON.parse(scores) : {};
         }
 
+        // Zapisuje wynik danego quizu w localStorage
         function saveScore(quizId, score, totalQuestions) {
             const scores = loadScores();
             scores[quizId] = { score, totalQuestions, date: new Date().toISOString() };
             localStorage.setItem(SCORES_KEY, JSON.stringify(scores));
         }
 
+        // Renderuje ekran wyboru quizu
         function renderQuizSelection() {
             appContainer.innerHTML = '<h1>Wybierz Test</h1><div class="quiz-selection-list"></div>';
             const listContainer = appContainer.querySelector('.quiz-selection-list');
@@ -291,6 +298,7 @@
             }
         }
 
+        // Renderuje widok pojedynczego pytania
         function renderQuiz(quizId) {
             const quiz = quizData[quizId];
             const q = state.questions[state.currentQuestionIndex];
@@ -320,6 +328,7 @@
             });
         }
         
+        // Renderuje ekran wyników po zakończeniu quizu
         function renderResults(quizId) {
             const quiz = quizData[quizId];
             const percentage = Math.round((state.score / state.questions.length) * 100);
@@ -334,6 +343,7 @@
             `;
         }
 
+        // Dynamicznie ładuje plik .js z pytaniami dla wybranego quizu
         function loadAndStartQuiz(quizId) {
             appContainer.innerHTML = `<div id="loader">Ładowanie testu...</div>`;
             
@@ -362,6 +372,7 @@
             document.head.appendChild(script);
         }
 
+        // Inicjalizuje stan quizu i renderuje pierwsze pytanie
         function startQuiz(quizId, questions) {
             shuffleArray(questions);
             questions.forEach(q => {
@@ -377,10 +388,12 @@
             renderQuiz(quizId);
         }
         
+        // Wraca do ekranu wyboru quizu
         function goBackToSelection() {
             renderQuizSelection();
         }
 
+        // Sprawdza wybraną odpowiedź
         function checkAnswer(quizId, selectedIndex) {
             const q = state.questions[state.currentQuestionIndex];
             const resultDiv = appContainer.querySelector('.result');
