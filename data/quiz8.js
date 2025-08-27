@@ -146,8 +146,8 @@ window.quiz8Questions = [
     {
         question: "Zgodnie z PN-EN 1995-1-2 βn to:",
         options: [
-            { text: "Hipotetyczna głębokość zwęglania", correct: true },
-            { text: "Hipotetyczna prędkość obliczeniowa zwęglania w warunkach pożaru nominalnego", correct: false },
+            { text: "Hipotetyczna głębokość zwęglania", correct: false },
+            { text: "Hipotetyczna prędkość obliczeniowa zwęglania w warunkach pożaru nominalnego", correct: true },
             { text: "Czas rozpoczęcia zwęglania", correct: false }
         ],
         explanation: "PN-EN 1995-1-2:2008 Eurokod 5 -- Projektowanie konstrukcji drewnianych -- Część 1-2: Postanowienia ogólne -- Projektowanie konstrukcji z uwagi na warunki pożarowe. Sekcja 1.6 Symbole: βn - Hipotetyczna prędkość obliczeniowa zwęglania w warunkach pożaru nominalnego."
@@ -342,3 +342,4 @@ window.quiz8Questions = [
         explanation: "PN-EN 13501-2:2023-09 Klasyfikacja ogniowa wyrobów budowlanych i elementów budynków -- Część 2. Klasyfikacja I1 jest bardziej rygorystyczna, ponieważ pomiary temperatury na skrzydle drzwiowym są dokonywane bliżej krawędzi (25 mm) w porównaniu do klasyfikacji I2 (100 mm), a przyrost temperatury na ościeżnicy jest ograniczony do 180°C (w I2 do 360°C)."
     }
 ];
+
