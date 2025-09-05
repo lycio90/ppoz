@@ -28,7 +28,6 @@
             --text-dark: #e0e0e0;
             --primary-dark: #bb86fc;
             --primary-hover-dark: #a76ef4;
-            /* ZMIENIONE KOLORY AKCENTU DLA LEPSZEJ CZYTELNOŚCI */
             --accent-dark: #64b5f6;
             --accent-hover-dark: #42a5f5;
             --border-dark: #444;
@@ -96,7 +95,7 @@
         }
         .question {
             background-color: #f9f9f9;
-            border-left: 4px solid var(--primary-light); 
+            border-left: 4px solid var(--primary-light);
             padding: 15px;
             margin-bottom: 20px;
             border-radius: 0 5px 5px 0;
@@ -116,7 +115,7 @@
             margin-top: 15px;
             padding: 15px;
             border-radius: 5px;
-            display: none; 
+            display: none;
             transition: background-color 0.3s, color 0.3s, border-left-color 0.3s;
         }
         .correct {
@@ -171,7 +170,6 @@
         }
         body.dark-mode .quiz-selection-list button, body.dark-mode .action-button {
             background-color: var(--accent-dark);
-            /* ZMIENIONY KOLOR TEKSTU NA PRZYCISKACH DLA LEPSZEGO KONTRASTU */
             color: #000;
         }
         body.dark-mode .quiz-selection-list button:hover, body.dark-mode .action-button:hover {
@@ -237,7 +235,9 @@
             'quiz14': { title: "Bezpieczeństwo pożarowe budynków" },
             'quiz15': { title: "Bezpieczeństwo pożarowe obiektów budowlanych" },
             'quiz17': { title: "SUG_W - PN-EN 12845" },
-            'quiz18': { title: "SUG_W - VDS, NFPA, FM GLOBAL" } // Nowy quiz
+            'quiz18': { title: "SUG_W - VDS, NFPA, FM GLOBAL" },
+            'quiz19': { title: "System Sygnalizacji Pożarowej cz. 1" },
+            'quiz20': { title: "System Sygnalizacji Pożarowej cz. 2" }
         };
 
         const appContainer = document.getElementById('app-container');
