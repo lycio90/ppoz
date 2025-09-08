@@ -371,8 +371,8 @@ window.quiz20Questions = [
     {
         "question": "Jaki maks. zasięg działania należy przyjmować dla czujki na ścianie nad otworem w przypadku otworów szerszych niż 8 m w ochronie lokalnej w celu wysterowania zamknięcia przeciwpożarowego:",
         "options": [
-            { "text": "promień działania nie większy niż 2 m", "correct": false },
-            { "text": "promień działania nie większy niż 6,2 m", "correct": true },
+            { "text": "promień działania nie większy niż 2 m", "correct": true },
+            { "text": "promień działania nie większy niż 6,2 m", "correct": false },
             { "text": "promień działania nie większy niż 4,4 m", "correct": false }
         ],
         "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 69<br/><br/><a href='https://drive.google.com/uc?export=view&id=1peaGmHM1JTFl9b6at3AYV13wyVua-tfn' target='_blank'>Zobacz objaśnienie</a>"
