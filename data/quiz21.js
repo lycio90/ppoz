@@ -6,7 +6,7 @@ window.quiz21Questions = [
             { "text": "dwie klapy dymowe o powierzchni czynnej oddymiania nie mniejszej niż 0,9 m2 każda", "correct": false },
             { "text": "jedna klapa dymowa", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> PN-B-02877-4:2001 Ochrona przeciwpożarowa budynków -- Instalacje grawitacyjne do odprowadzania dymu i ciepła -- Zasady projektowania<br/><br/><strong>Wyjaśnienie:</strong><br/><b>3.2 Liczba klap dymowych</b><br/>Na dach o nachyleniu ≤ 12° na każde 200 m2 powinna przypadać co najmniej jedna klapa dymowa, a na dach o nachyleniu > 12° - co najmniej jedna klapa na każde 400 m2."
+        "explanation": "<strong>Podstawa prawna:</strong> PN-B-02877-4:2001 Ochrona przeciwpożarowa budynków -- Instalacje grawitacyjne do odprowadzania dymu i ciepła -- Zasady projektowania<br/><br/><strong>Wyjaśnienie:</strong><br/><b>3.2 Liczba klap dymowych</b><br/>Na dach o nachyleniu ≤ 12o na każde 200 m2 powinna przypadać co najmniej jedna klapa dymowa, a na dach o nachyleniu > 12o - co najmniej jedna klapa na każde 400 m2."
     },
     {
         "question": "Według standardów NFPA 204 i NFPA 13 w przestrzeni bezpośrednio pod kurtyną dymową stanowiącą granicę strefy dymowej oraz granicę sekcji tryskaczowej:",
@@ -24,7 +24,7 @@ window.quiz21Questions = [
             { "text": "10 000", "correct": true },
             { "text": "1 000", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> PN-EN 12101-2:2017-05 Systemy kontroli rozprzestrzeniania dymu i ciepła -- Część 2: Urządzenia do grawitacyjnego odprowadzania dymu i ciepła<br/><br/><strong>Wyjaśnienie:</strong><br/><b>Załącznik C, C.5 Procedura badawcza</b><br/>Jeśli NSHEV jest dwufunkcyjnym NSHEV, przed powyższym badaniem wykonać 10 000 cykli do normalnej pozycji przewietrzania."
+        "explanation": "<strong>Podstawa prawna:</strong> PN-EN 12101-2:2017-05 Systemy kontroli rozprzestrzeniania dymu i ciepła -- Część 2: Urządzenia do grawitacyjnego odprowadzania dymu i ciepła<br/><br/><strong>Wyjaśnienie:</strong><br/><b>Załącznik C</b><br/>Metoda badania niezawodności działania i czasu reakcji<br/><b>C.5 Procedura badawcza</b><br/>Jeśli NSHEV jest dwufunkcyjnym NSHEV, przed powyższym badaniem wykonać 10 000 cykli do normalnej pozycji przewietrzania."
     },
     {
         "question": "Wg DIN 18232-2 Utrzymywanie stref wolnych od zadymienia - Część 2: Urządzenia oddymiające (klapy dymowe), wymiarowanie, wymagania i montaż, maksymalna powierzchnia strefy dymowej wynosi:",
@@ -60,7 +60,7 @@ window.quiz21Questions = [
             { "text": "60 minut", "correct": false },
             { "text": "Przez czas potrzebny do ewakuacji", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 270. 1.</b> Instalacja wentylacji oddymiającej powinna:<br/>1) usuwać dym z intensywnością zapewniającą, że w <b>czasie potrzebnym do ewakuacji ludzi</b> na chronionych przejściach i drogach ewakuacyjnych nie wystąpi zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację;<br/>2) mieć stały dopływ powietrza zewnętrznego uzupełniającego braki tego powietrza w wyniku jego wypływu wraz z dymem."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 270. 1.</b> Instalacja wentylacji oddymiającej powinna:<br/>1) usuwać dym z intensywnością zapewniającą, że w czasie potrzebnym do ewakuacji ludzi na chronionych przejściach i drogach ewakuacyjnych nie wystąpi zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację;<br/>2) mieć stały dopływ powietrza zewnętrznego uzupełniającego braki tego powietrza w wyniku jego wypływu wraz z dymem."
     },
     {
         "question": "Norma europejska zharmonizowana PN-EN 12101-1:2007 Systemy kontroli rozprzestrzeniania się dymu i ciepła - Część 1: Wymagania techniczne dotyczące kurtyn dymowych, szczeliny wynikające z powodów funkcjonalnych zaleca się, aby nie przekraczały podanych wartości:",
@@ -87,7 +87,7 @@ window.quiz21Questions = [
             { "text": "stałych kurtyn dymowych", "correct": false },
             { "text": "ruchomych kurtyn dymowych", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> PN-EN 12101-1:2007 Systemy kontroli rozprzestrzeniania dymu i ciepła -- Część 1: Wymagania techniczne dotyczące kurtyn dymowych<br/><br/><strong>Wyjaśnienie:</strong><br/><b>1 Zakres normy</b><br/>W niniejszej części EN 12101 określono wymagania eksploatacyjne wyrobu, klasyfikacje i metody badań kurtyn dymowych... Uwzględniono tylko kurtyny instalowane w budynkach, tzn. <b>nie uwzględniono kurtyn stanowiących fragment konstrukcji budynku.</b>"
+        "explanation": "<strong>Podstawa prawna:</strong> PN-EN 12101-1:2007 Systemy kontroli rozprzestrzeniania dymu i ciepła -- Część 1: Wymagania techniczne dotyczące kurtyn dymowych<br/><br/><strong>Wyjaśnienie:</strong><br/><b>1 Zakres normy</b><br/>W niniejszej części EN 12101 określono wymagania eksploatacyjne wyrobu, klasyfikacje i metody badań kurtyn dymowych, które dotyczą kurtyn jako takich, z dołączonymi urządzeniami wyzwalającymi lub napędowymi, zaprojektowanymi do stosowania w systemach kontroli rozprzestrzeniania dymu i ciepła lub bez tych urządzeń. Uwzględniono tylko kurtyny instalowane w budynkach, tzn. nie uwzględniono kurtyn stanowiących fragment konstrukcji budynku. Niniejsza norma dostarcza metod badań systemów kurtyn dymowych i metod oceny zgodności dla systemów kurtyn dymowych."
     },
     {
         "question": "Wentylatory napowietrzające do systemu hybrydowego klatki schodowej powinny mieć klasę:",
@@ -114,7 +114,7 @@ window.quiz21Questions = [
             { "text": "5 m/s", "correct": false },
             { "text": "10 m/s", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> PN-EN 12101-2:2017-05 Systemy kontroli rozprzestrzeniania dymu i ciepła -- Część 2: Urządzenia do grawitacyjnego odprowadzania dymu i ciepła<br/><br/><strong>Wyjaśnienie:</strong><br/><b>4.6 Właściwości użytkowe w warunkach środowiskowych</b><br/><b>4.6.1 Otwarcie pod obciążeniem</b><br/>Aby zasymulować wpływ wiatru bocznego, podczas badania zgodnie z Załącznikiem D NSHEV montowane w dachu należy poddać oddziaływaniu wiatru bocznego o prędkości 10 m/s przy najbardziej niekorzystnym kierunku wiatru.<br/><br/><a href='https://drive.google.com/uc?export=view&id=1BdiA1zv1oQlQl719c4xHZPTK3fSdVxtG' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> PN-EN 12101-2:2017-05 Systemy kontroli rozprzestrzeniania dymu i ciepła -- Część 2: Urządzenia do grawitacyjnego odprowadzania dymu i ciepła<br/><br/><strong>Wyjaśnienie:</strong><br/><b>4.6 Właściwości użytkowe w warunkach środowiskowych</b><br/><b>4.6.1 Otwarcie pod obciążeniem</b><br/>Aby zasymulować wpływ wiatru bocznego, podczas badania zgodnie z Załącznikiem D NSHEV montowane w dachu należy poddać oddziaływaniu wiatru bocznego o prędkości 10 m/s przy najbardziej niekorzystnym kierunku wiatru.<br/><br/>NSHEV montowane w dachu powinno otworzyć się, osiągnąć pozycję pożarową otwartą w czasie nie dłuższym niż 60 s po uruchomieniu i pozostać w pozycji bez zewnętrznego zasilania energią (do czasu zresetowania), gdy jest badane pod obciążeniem śniegiem właściwym dla jego klasyfikacji i pod określonym wiatrem bocznym zgodnie z Załącznikiem D.<br/><br/>W przypadku NSHEV wyposażonego w owiewki wiatrowe, nie należy mocować ich w sposób sprzyjający gromadzeniu się śniegu lub lodu ze szkodą dla działania NSHEV.<br/><br/><a href='https://drive.google.com/uc?export=view&id=1BdiA1zv1oQlQl719c4xHZPTK3fSdVxtG' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "Wg normy PN-EN 12101-13:2022:",
@@ -132,7 +132,7 @@ window.quiz21Questions = [
             { "text": "25% H, gdzie H jest wysokością, liczoną od posadzki po dach strefy oddymianej", "correct": false },
             { "text": "30% H, gdzie H jest wysokością, liczoną od posadzki po dach strefy oddymianej", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> NFPA 204 Edition 2024 Standard for Smoke and Heat Venting<br/><br/><strong>Wyjaśnienie:</strong><br/><b>Chapter 7 Draft Curtains</b><br/><b>7.3 Location and Depth.</b><br/><b>7.3.1*</b> Draft curtains shall extend vertically downward from the ceiling the minimum distance required so that the value of de, as shown in Figure 5.4.2(a), is a minimum of 20 percent of the ceiling height, H..."
+        "explanation": "<strong>Podstawa prawna:</strong> NFPA 204 Edition 2024 Standard for Smoke and Heat Venting<br/><br/><strong>Wyjaśnienie:</strong><br/><b>Chapter 7 Draft Curtains</b><br/><b>7.3 Location and Depth.</b><br/><b>7.3.1*</b> Draft curtains shall extend vertically downward from the ceiling the minimum distance required so that the value of de, as shown in Figure 5.4.2(a), is a minimum of 20 percent of the ceiling height, H, measured as follows:<br/>(1) For flat roofs and sawtooth roofs with flat ceiling areas, from the ceiling to the floor<br/>(2) For sloped roofs, from the center of the vent to the floor<br/><b>7.3.2</b> Where there are differing vent heights, H, each vent shall be calculated individually."
     },
     {
         "question": "Kurtyny dymowe nad przejściami ewakuacyjnymi (w pasażu?) powinny posiadać klasyfikację:",
@@ -177,7 +177,7 @@ window.quiz21Questions = [
             { "text": "20% H, gdzie H jest wysokością, liczoną od posadzki po dach strefy oddymianej", "correct": true },
             { "text": "30% H, gdzie H jest wysokością, liczoną od posadzki po dach strefy oddymianej", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> NFPA 204 Edition 2024 Standard for Smoke and Heat Venting<br/><br/><strong>Wyjaśnienie:</strong><br/><b>Chapter 7 Draft Curtains</b><br/><b>7.3 Location and Depth.</b><br/><b>7.3.1*</b> Draft curtains shall extend vertically downward from the ceiling the minimum distance required so that the value of de, as shown in Figure 5.4.2(a), is a minimum of 20 percent of the ceiling height, H..."
+        "explanation": "<strong>Podstawa prawna:</strong> NFPA 204 Edition 2024 Standard for Smoke and Heat Venting<br/><br/><strong>Wyjaśnienie:</strong><br/><b>Chapter 7 Draft Curtains</b><br/><b>7.3 Location and Depth.</b><br/><b>7.3.1*</b> Draft curtains shall extend vertically downward from the ceiling the minimum distance required so that the value of de, as shown in Figure 5.4.2(a), is a minimum of 20 percent of the ceiling height, H, measured as follows:<br/>(1) For flat roofs and sawtooth roofs with flat ceiling areas, from the ceiling to the floor<br/>(2) For sloped roofs, from the center of the vent to the floor<br/><b>7.3.2</b> Where there are differing vent heights, H, each vent shall be calculated individually."
     },
     {
         "question": "Kryterium otwierania drzwi z siłą mniejszą niż 100 N:",
@@ -204,7 +204,7 @@ window.quiz21Questions = [
             { "text": "deklaracje właściwości użytkowych, świadectwo dopuszczenia", "correct": false },
             { "text": "krajową deklaracje właściwości użytkowych", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong><br/>(1) Rozporządzenie Ministra Infrastruktury i Budownictwa z dnia 17 listopada 2016 r. w sprawie sposobu deklarowania właściwości użytkowych wyrobów budowlanych oraz sposobu znakowania ich znakiem budowlanym (Dz.U. 2023 poz. 873)<br/>(2) Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 20 czerwca 2007 r. w sprawie wykazu wyrobów służących zapewnieniu bezpieczeństwa publicznego lub ochronie zdrowia i życia oraz mienia, a także zasad wydawania dopuszczenia tych wyrobów do użytkowania (Dz.U. 2007 nr 143 poz. 1002 wraz z późn. zm.; ostatnia zmiana Dz.U. 2022 poz. 2282)"
+        "explanation": "<strong>Podstawa prawna:</strong><br/>(1) Rozporządzenie Ministra Infrastruktury i Budownictwa z dnia 17 listopada 2016 r. w sprawie sposobu deklarowania właściwości użytkowych wyrobów budowlanych oraz sposobu znakowania ich znakiem budowlanym (Dz.U. 2023 poz. 873)<br/><br/>(2) Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 20 czerwca 2007 r. w sprawie wykazu wyrobów służących zapewnieniu bezpieczeństwa publicznego lub ochronie zdrowia i życia oraz mienia, a także zasad wydawania dopuszczenia tych wyrobów do użytkowania (Dz.U. 2007 nr 143 poz. 1002 wraz z późn. zm.; ostatnia zmiana Dz.U. 2022 poz. 2282)"
     },
     {
         "question": "Jaki element detekcyjny uruchamiający system oddymiania grawitacyjnego należy stosować w przypadku projektowania grawitacyjnego systemu oddymiania w klatkach schodowych:",
@@ -231,7 +231,7 @@ window.quiz21Questions = [
             { "text": "stężenie gazów toksycznych powyżej określonego poziomu wyrażonego w ppm", "correct": false },
             { "text": "zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 270. 1.</b> Instalacja wentylacji oddymiającej powinna:<br/>1) usuwać dym z intensywnością zapewniającą, że w czasie potrzebnym do ewakuacji ludzi na chronionych przejściach i drogach ewakuacyjnych nie wystąpi zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację;<br/>2) mieć stały dopływ powietrza zewnętrznego uzupełniającego braki tego powietrza w wyniku jego wypływu wraz z dymem."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 270. 1.</b> Instalacja wentylacji oddymiającej powinna:<br/>1) usuwać dym z intensywnością zapewniającą, że w czasie potrzebnym do ewakuacji ludzi na chronionych przejściach i drogach ewakuacyjnych nie wystąpi zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację;<br/>2) mieć stały dopływ powietrza zewnętrznego uzupełniającego braki tego powietrza w wyniku jego wypływu wraz z dymem."
     },
     {
         "question": "Wartość współczynnika ekstynkcji światła dla dymu przyjmowana w ocenie wyników analiz CFD na potrzeby szacowania zasięgu widzialności:",
@@ -267,7 +267,7 @@ window.quiz21Questions = [
             { "text": "mogą zastępować instalacje oddymiania poziomych dróg ewakuacyjnych", "correct": true },
             { "text": "żadna odpowiedź nie jest prawidłowa", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 247. 1.</b> W budynku wysokim (W) i wysokościowym (WW), w strefach pożarowych innych niż ZL IV, należy zastosować rozwiązania techniczno-budowlane zabezpieczające przed zadymieniem poziomych dróg ewakuacyjnych."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 247. 1.</b> W budynku wysokim (W) i wysokościowym (WW), w strefach pożarowych innych niż ZL IV, należy zastosować rozwiązania techniczno-budowlane zabezpieczające przed zadymieniem poziomych dróg ewakuacyjnych."
     },
     {
         "question": "Zgodnie z normą PN-EN 12101-13 należy wykonać symulację CFD potwierdzającą skuteczność działania instalacji wentylacji w systemie różnicowania ciśnień:",
@@ -285,7 +285,7 @@ window.quiz21Questions = [
             { "text": "30 minut", "correct": false },
             { "text": "przez czas potrzebny do ewakuacji", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 270. 1.</b> Instalacja wentylacji oddymiającej powinna:<br/>1) usuwać dym z intensywnością zapewniającą, że w <b>czasie potrzebnym do ewakuacji ludzi</b> na chronionych przejściach i drogach ewakuacyjnych nie wystąpi zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację;<br/>2) mieć stały dopływ powietrza zewnętrznego uzupełniającego braki tego powietrza w wyniku jego wypływu wraz z dymem."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 270. 1.</b> Instalacja wentylacji oddymiającej powinna:<br/>1) usuwać dym z intensywnością zapewniającą, że w czasie potrzebnym do ewakuacji ludzi na chronionych przejściach i drogach ewakuacyjnych nie wystąpi zadymienie lub temperatura uniemożliwiające bezpieczną ewakuację;<br/>2) mieć stały dopływ powietrza zewnętrznego uzupełniającego braki tego powietrza w wyniku jego wypływu wraz z dymem."
     },
     {
         "question": "Wg PN-B-02877-4:2001 Ochrona przeciwpożarowa. Instalacje grawitacyjne do odprowadzania dymu i ciepła. Zasady projektowania, powierzchnia przestrzeni poddachowej AR pojedynczej strefy dymowej w żadnym przypadku nie może przekraczać:",
@@ -303,7 +303,7 @@ window.quiz21Questions = [
             { "text": "EIS 120", "correct": true },
             { "text": "EIS 30", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 212. 2.</b> dla budynku ZL IV (W) -> KOP \"B\"<br/><b>§ 232. 4.</b> dla KOP \"B\" budynku PM -> KOO ścian i stropów wynosi REI 120<br/><b>§ 268. 4.</b> Przewody wentylacyjne ... w miejscu przejścia przez elementy oddzielenia przeciwpożarowego powinny być wyposażone w przeciwpożarowe klapy odcinające o klasie odporności ogniowej równej klasie odporności ogniowej elementu oddzielenia przeciwpożarowego..."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 212. 2.</b> Wymaganą klasę odporności pożarowej dla budynku, zaliczonego do jednej kategorii ZL, określa poniższa tabela:<br/>dla budynku ZL IV (W) -> KOP \"B\"<br/><br/><b>§ 232. 4.</b> Wymaganą klasę odporności ogniowej elementów oddzielenia przeciwpożarowego oraz zamknięć znajdujących się w nich otworów określa poniższa tabela:<br/>dla KOP \"B\" budynku PM -> KOO ścian i stropów wynosi REI 120<br/><br/><b>§ 268. 4.</b> Przewody wentylacyjne i klimatyzacyjne w miejscu przejścia przez elementy oddzielenia przeciwpożarowego powinny być wyposażone w przeciwpożarowe klapy odcinające o klasie odporności ogniowej równej klasie odporności ogniowej elementu oddzielenia przeciwpożarowego z uwagi na szczelność ogniową, izolacyjność ogniową i dymoszczelność (E I S), z zastrzeżeniem ust. 5.<br/><br/><b>5.</b> Przewody wentylacyjne i klimatyzacyjne samodzielne lub obudowane prowadzone przez strefę pożarową, której nie obsługują, powinny mieć klasę odporności ogniowej wymaganą dla elementów oddzielenia przeciwpożarowego tych stref pożarowych z uwagi na szczelność ogniową, izolacyjność ogniową i dymoszczelność (E I S) lub powinny być wyposażone w przeciwpożarowe klapy odcinające zgodnie z ust. 4."
     },
     {
         "question": "Prędkość krytyczna przepływu powietrza w tunelu to:",
@@ -339,7 +339,7 @@ window.quiz21Questions = [
             { "text": "taką jak klasa odporności ogniowej stropu wynikająca z klasy odporności pożarowej budynku,", "correct": false },
             { "text": "odpowiedzi a i b są nieprawidłowe.", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 268. 5.</b> Przewody wentylacyjne i klimatyzacyjne samodzielne lub obudowane prowadzone przez strefę pożarową, której nie obsługują, powinny mieć klasę odporności ogniowej wymaganą dla elementów oddzielenia przeciwpożarowego tych stref pożarowych..."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 268. 4.</b> Przewody wentylacyjne i klimatyzacyjne w miejscu przejścia przez elementy oddzielenia przeciwpożarowego powinny być wyposażone w przeciwpożarowe klapy odcinające o klasie odporności ogniowej równej klasie odporności ogniowej elementu oddzielenia przeciwpożarowego z uwagi na szczelność ogniową, izolacyjność ogniową i dymoszczelność (E I S), z zastrzeżeniem ust. 5.<br/><br/><b>5.</b> Przewody wentylacyjne i klimatyzacyjne samodzielne lub obudowane prowadzone przez strefę pożarową, której nie obsługują, powinny mieć klasę odporności ogniowej wymaganą dla elementów oddzielenia przeciwpożarowego tych stref pożarowych z uwagi na szczelność ogniową, izolacyjność ogniową i dymoszczelność (E I S) lub powinny być wyposażone w przeciwpożarowe klapy odcinające zgodnie z ust. 4."
     },
     {
         "question": "Przedsionek przeciwpożarowy stanowiący drogę ewakuacyjną w wysokim budynku magazynowym:",
@@ -348,7 +348,7 @@ window.quiz21Questions = [
             { "text": "zawsze wymaga wyposażenia w urządzenia zapobiegające zadymieniu lub samoczynne urządzenia oddymiające uruchamiane z systemu wykrywania dymu,", "correct": true },
             { "text": "zawsze wymaga wyposażenia w urządzenia zapobiegające zadymieniu,", "correct": false }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2022 poz. 1225 z późn. zm.)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 246. 3.</b> Klatki schodowe i przedsionki przeciwpożarowe, stanowiące drogę ewakuacyjną w budynku wysokim (W) dla strefy pożarowej PM, powinny być wyposażone w urządzenia zapobiegające zadymieniu lub samoczynne urządzenia oddymiające uruchamiane za pomocą systemu wykrywania dymu."
+        "explanation": "<strong>Podstawa prawna:</strong> Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych jakim powinny odpowiadać budynki i ich usytuowanie (Dz. U. 2002 nr 75 poz. 690; tekst jednolity Dz. U. 2022 poz. 1225 z poźn. zm.; ostatnie zmiany Dz. U. 2023 poz. 2442, Dz. U. 2024 poz. 474, Dz. U. 2024 poz. 726)<br/><br/><strong>Wyjaśnienie:</strong><br/><b>§ 246. 3.</b> Klatki schodowe i przedsionki przeciwpożarowe, stanowiące drogę ewakuacyjną w budynku wysokim (W) dla strefy pożarowej PM, powinny być wyposażone w urządzenia zapobiegające zadymieniu lub samoczynne urządzenia oddymiające uruchamiane za pomocą systemu wykrywania dymu."
     }
-];
+]
 
