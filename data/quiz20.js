@@ -330,7 +330,7 @@ window.quiz20Questions = [
             { "text": "Zasilacza urządzeń przeciwpożarowych", "correct": false },
             { "text": "Czujki ciepła", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 70, 71<br/><br/><a href='https://drive.google.com/uc?export=view&id=1yvL_6C0hYVNqECMZOYp04xdORYb-Kyjz' target='_blank'>Zobacz objaśnienie 1</a> / <a href='https://drive.google.com/uc?export=view&id=1zZOhdRt6cFMkkiCLGk4juiRdOJQ4W1x8' target='_blank'>Zobacz objaśnienie 2</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 70, 71<br/><br/><a href='https://drive.google.com/uc?export=view&id=1yvL_6C0hYVNqECMZOYp04xdORYb-KYjz' target='_blank'>Zobacz objaśnienie 1</a> / <a href='https://drive.google.com/uc?export=view&id=1zZOhdRt6cFMkkiCLGk4juiRdOJQ4W1x8' target='_blank'>Zobacz objaśnienie 2</a>"
     },
     {
         "question": "Która część normy EN54 dotyczy central sygnalizacji pożarowej:",
@@ -420,7 +420,7 @@ window.quiz20Questions = [
             { "text": "Ręcznego ostrzegacza pożarowego", "correct": false },
             { "text": "Czujki ciepła punktowej", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 70, 71<br/><br/><a href='https://drive.google.com/uc?export=view&id=1VVUISTIMiEvpS4IxZ5eUlaI0y8338g9X' target='_blank'>Zobacz objaśnienie 1</a> / <a href='https://drive.google.com/uc?export=view&id=13kuYty-_st2B50VNHWTig4SZ4XYZrwl1' target='_blank'>Zobacz objaśnienie 2</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 70, 71<br/><br/><a href='https://drive.google.com/uc?export=view&id=1yvL_6C0hYVNqECMZOYp04xdORYb-KYjz' target='_blank'>Zobacz objaśnienie 1</a> / <a href='https://drive.google.com/uc?export=view&id=1lhrPPtfehjFtTvFkY2BeK8buWWnWU6LX' target='_blank'>Zobacz objaśnienie 2</a>"
     },
     {
         "question": "Zakres ochrony systemem sygnalizacji pożarowej - ochrona strefowa, polega na zabezpieczeniu przez SSP:",
@@ -447,7 +447,7 @@ window.quiz20Questions = [
             { "text": "bezpośrednio na dachu", "correct": false },
             { "text": "w odległości ok. 40 cm od dachu", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 20, 21<br/><br/><a href='https://drive.google.com/uc?export=view&id=1gQ5lsJnMCgiwKk2wwOCtD8DkCxXSkfX3' target='_blank'>Zobacz objaśnienie 1</a> / <a href='https://drive.google.com/uc?export=view&id=1CLwqbXc9AxJp3AqkJdIMnY-nW5m4KakL' target='_blank'>Zobacz objaśnienie 2</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 20, 21<br/><br/><a href='https://drive.google.com/uc?export=view&id=1yP_DBVJ4HadkV6dEBAmjqBLCpSZG_L4f' target='_blank'>Zobacz objaśnienie 1</a> / <a href='https://drive.google.com/uc?export=view&id=1EBnivZfctcwJhoROGUVXArta2zUvkCX9' target='_blank'>Zobacz objaśnienie 2</a>"
     },
     {
         "question": "W przypadku pokoju hotelowego, gdzie łóżko znajduje się w odległości 5 m od drzwi, drzwi do pokoju posiadają tłumienność akustyczną 30 dB(A), sygnalizator, generujący natężenie dźwięku wynoszące 95 dB(A) w odległości 1 m od sygnalizatora, wg specyfikacji PN-CEN/TS 54-14 i wytycznych SITP WP-02:",

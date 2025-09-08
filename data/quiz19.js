@@ -6,7 +6,7 @@ window.quiz19Questions = [
             { "text": "System alarmu pożarowego", "correct": false },
             { "text": "System sygnalizacji pożarowej", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 2<br/><br/><a href='https://docs.google.com/spreadsheets/d/1pRpqH0CElQJY3W5kRsmGWggy8cqjktzx6rb7_2me9w0/edit' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 2<br/><br/><a href='https://drive.google.com/uc?export=view&id=1XLNZIlIxPd22ca4Dq3RqeudAu8x5TlNs' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "Czujka pożarowa która reaguje na wzrost temperatury, to:",
@@ -357,7 +357,7 @@ window.quiz19Questions = [
             { "text": "0,5 m < d < 4,5 m", "correct": false },
             { "text": "0,5 m< d < 6,2 m", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 38<br/><br/><a href='https://drive.google.com/uc?export=view&id=1bO7HI-Q3Hb33N-o9faHLPEUCW3efe9Jq' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 38<br/><br/><a href='https://drive.google.com/uc?export=view&id=1SVqLdiCwWoWL7EkzHHOazhxTGHu9NCm2' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "W przypadku ochrony klatki schodowej czujkami punktowymi dymu, przy szerokości duszy klatki wynoszącej 0,3 m, konieczne jest instalowanie czujek:",
@@ -375,7 +375,7 @@ window.quiz19Questions = [
             { "text": "1,6 m", "correct": false },
             { "text": "od 0,9 do 1,4 m", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 73<br/><br/><a href='https://drive.google.com/uc?export=view&id=1Onc30KTJ-2_DcRp-Aht6kVkJi_l1Cuoq' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 1 str. 73<br/><br/><a href='https://drive.google.com/uc?export=view&id=1ViO9jUjThpJ7m5e8lJf9nChbusBFkPPu' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "Na linii dozorowej promieniowej można zainstalować:",
@@ -384,7 +384,7 @@ window.quiz19Questions = [
             { "text": "127 ręcznych ostrzegaczy pożarowych", "correct": false },
             { "text": "10 ręcznych ostrzegaczy pożarowych", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 24<br/><br/><a href='https://drive.google.com/uc?export=view&id=1ViO9jUjThpJ7m5e8lJf9nChbusBFkPPu' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja TK str. 24<br/><br/><a href='https://drive.google.com/uc?export=view&id=1yMfiR_ScX3vo0-AJSAyaTdx6pDxP1ccK' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "Przestrzeń nad podwieszonym sufitem, w której gęstość obciążenia ogniowego wynikająca z prowadzonych przez nią instalacji wynosi 35 MJ/m2:",
@@ -393,7 +393,7 @@ window.quiz19Questions = [
             { "text": "konieczność ochrony czujkami zależy, czy przez tą przestrzeń prowadzone są instalacje bezpieczeństwa", "correct": false },
             { "text": "powinna być chroniona czujkami", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 2 str. 32<br/><br/><a href='https://drive.google.com/uc?export=view&id=1yMfiR_ScX3vo0-AJSAyaTdx6pDxP1ccK' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 2 str. 32<br/><br/><a href='https://drive.google.com/uc?export=view&id=1PQDehYvmpRJPee8yvrMKvsctjc4J6jV1' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "W przypadku pokoju hotelowego, gdzie łóżko znajduje się w odległości 5 m od drzwi, drzwi do pokoju posiadają tłumienność akustyczną 30 dB(A), sygnalizator, generujący natężenie dźwięku wynoszące 95 dB(A) w odległości 1 m od sygnalizatora:",
@@ -402,7 +402,7 @@ window.quiz19Questions = [
             { "text": "wystarczy jeden sygnalizator na każde 20 m korytarza", "correct": false },
             { "text": "konieczny jest sygnalizator zlokalizowany w danym pokoju hotelowym", "correct": true }
         ],
-        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 2 str. 5<br/><br/><a href='https://drive.google.com/uc?export=view&id=1PQDehYvmpRJPee8yvrMKvsctjc4J6jV1' target='_blank'>Zobacz objaśnienie</a>"
+        "explanation": "<strong>Podstawa prawna:</strong> System sygnalizacji pożarowej - kryteria projektowania, dobór i weryfikacja rozwiązań - prezentacja MS część 2 str. 5<br/><br/><a href='https://drive.google.com/uc?export=view&id=1i_T7dk2lYlSjr3abIVHZrCZjJQUdb7PO' target='_blank'>Zobacz objaśnienie</a>"
     },
     {
         "question": "Maksymalny poziom natężenia dźwięku generowanego przez sygnalizator akustyczny nie może przekraczać:",
