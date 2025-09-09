@@ -342,4 +342,3 @@ window.quiz8Questions = [
         explanation: "PN-EN 13501-2:2023-09 Klasyfikacja ogniowa wyrobów budowlanych i elementów budynków -- Część 2. Klasyfikacja I1 jest bardziej rygorystyczna, ponieważ pomiary temperatury na skrzydle drzwiowym są dokonywane bliżej krawędzi (25 mm) w porównaniu do klasyfikacji I2 (100 mm), a przyrost temperatury na ościeżnicy jest ograniczony do 180°C (w I2 do 360°C)."
     }
 ];
-
